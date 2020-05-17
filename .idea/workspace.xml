@@ -380,7 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589690115927</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="category name comment">
+      <created>1589690210021</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1589690210021</updated>
+    </task>
+    <task id="LOCAL-00045" summary="category books comment">
+      <created>1589690396929</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1589690396929</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -395,8 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding a filed (column) for the activeness of the book which stores true or false to determine if the book is still in stock for sale." />
-    <MESSAGE value="Adding a filed (column) for the relation of the categories with the books which stores the categories ids which the admin selected. Note: postgres stores then as ids but odoo display them as lists and when you click on them you can choose what categories you want for this book." />
     <MESSAGE value="Adding a filed (column) for the reverse relation of the categories with the books which stores the books ids which the admin selected for the book. Note: postgres stores then as ids but odoo display them as lists and when you click on them you can choose what books you want for this category." />
     <MESSAGE value="name comment" />
     <MESSAGE value="active comment" />
@@ -420,6 +432,8 @@
     <MESSAGE value="publisher image comment" />
     <MESSAGE value="publisher books comment" />
     <MESSAGE value="category model comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="category model comment" />
+    <MESSAGE value="category name comment" />
+    <MESSAGE value="category books comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="category books comment" />
   </component>
 </project>
