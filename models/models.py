@@ -31,10 +31,12 @@ class Books (models.Model):
     # Adding a filed (column) for the publish date of the book which stores string containing a date format.
     publish_date = fields.Date()
 
+    # Adding a filed (column) for the language of the book which stores string containing the key of the selected option.
     language = fields.Selection([
         ('ar','Arabic'),
         ('en','english')
     ],default='en')
+
 
     isbn = fields.Char("International Standard Book Number")
     price = fields.Float()
