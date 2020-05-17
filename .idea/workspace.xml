@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
+    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="Adding a filed (column) for the st of the book which stores real number.">
       <change beforePath="$PROJECT_DIR$/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589687234171</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Adding a category model to store multiple categories of the published books.">
+      <created>1589687527462</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589687527462</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +229,7 @@
     <MESSAGE value="Adding a publisher model to store publishers info" />
     <MESSAGE value="Adding a filed (column) for the relation of the publisher with the book which stores the publisher id who published the book of the author." />
     <MESSAGE value="Adding a filed (column) for the reverse relation of the publisher with the book which stores all the books ids that the publisher had published. Note: postgres stores ids but odoo displays them as a list of books records in his views which is nice." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a filed (column) for the reverse relation of the publisher with the book which stores all the books ids that the publisher had published. Note: postgres stores ids but odoo displays them as a list of books records in his views which is nice." />
+    <MESSAGE value="Adding a category model to store multiple categories of the published books." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a category model to store multiple categories of the published books." />
   </component>
 </project>

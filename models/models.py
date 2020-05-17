@@ -9,11 +9,21 @@ class Books (models.Model):
     number = fields.Integer()
     description = fields.Text()
     image = fields.Binary()
+
+    state = fields.Selection([
+        ('draft','Draft'),
+        ('waiting','Waiting approval'),
+        ('reviewed','Reviewed'),
+        ('published','Published'),
+    ],default='draft')
+
     publish_date = fields.Date()
+
     language = fields.Selection([
         ('ar','Arabic'),
         ('en','english')
     ],default='en')
+
     isbn = fields.Char("International Standard Book Number")
     price = fields.Float()
 
