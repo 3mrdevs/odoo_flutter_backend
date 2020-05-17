@@ -12,6 +12,7 @@
             <field name="view_mode">tree,form</field>
         </record>
 
+        <!-- Publishers menu action -->
         <record id="publishers_action" model="ir.actions.act_window">
             <field name="name">Publishers</field>
             <field name="res_model">flutter.publisher</field>
