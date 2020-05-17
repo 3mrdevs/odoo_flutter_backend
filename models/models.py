@@ -63,6 +63,8 @@ class Author (models.Model):
     _name = 'flutter.author'
     _description = 'Model for storing authors of books and do CRUD operations.'
 
+    _order = "create_date desc"
+
     # Adding a filed (column) for the name of the author. Char is varchar or string with a small length.
     name = fields.Char()
 
