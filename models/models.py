@@ -5,7 +5,9 @@ class Books (models.Model):
     _name = 'flutter.book'
     _description = 'Model for storing books and do CRUD operations.'
 
+    # name of the book. Char is varchar or string with a small length.
     name = fields.Char()
+
     active = fields.Boolean(default=True)
     number = fields.Integer()
     description = fields.Text()
