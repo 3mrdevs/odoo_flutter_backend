@@ -5,6 +5,7 @@ class Books (models.Model):
     _name = 'flutter.book'
     _description = 'Model for storing books and do CRUD operations.'
 
+    # Sorts the categories descending order with the time of creation.
     _order = "create_date desc"
 
     # Adding a filed (column) for the name of the book. Char is varchar or string with a small length.
