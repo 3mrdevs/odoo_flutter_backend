@@ -93,6 +93,8 @@ class Category (models.Model):
     _name = 'flutter.category'
     _description = 'Model for storing categories of the books and do CRUD operations.'
 
-
+    # name of the publisher. Char is varchar or string with a small length.
     name = fields.Char()
+
+
     books = fields.Many2many("flutter.book")

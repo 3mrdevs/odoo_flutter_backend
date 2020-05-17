@@ -366,7 +366,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589689850195</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="publisher books comment">
+      <created>1589689970968</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1589689970968</updated>
+    </task>
+    <task id="LOCAL-00043" summary="category model comment">
+      <created>1589690115927</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1589690115927</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,8 +395,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding a category model to store multiple categories of the published books." />
-    <MESSAGE value="Adding a filed (column) for the status of the book which stores a string of the current state." />
     <MESSAGE value="Adding a filed (column) for the activeness of the book which stores true or false to determine if the book is still in stock for sale." />
     <MESSAGE value="Adding a filed (column) for the relation of the categories with the books which stores the categories ids which the admin selected. Note: postgres stores then as ids but odoo display them as lists and when you click on them you can choose what categories you want for this book." />
     <MESSAGE value="Adding a filed (column) for the reverse relation of the categories with the books which stores the books ids which the admin selected for the book. Note: postgres stores then as ids but odoo display them as lists and when you click on them you can choose what books you want for this category." />
@@ -406,6 +418,8 @@
     <MESSAGE value="publisher model comment" />
     <MESSAGE value="publisher name comment" />
     <MESSAGE value="publisher image comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="publisher image comment" />
+    <MESSAGE value="publisher books comment" />
+    <MESSAGE value="category model comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="category model comment" />
   </component>
 </project>
