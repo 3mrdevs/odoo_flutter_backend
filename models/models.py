@@ -20,7 +20,7 @@ class Books (models.Model):
     # Adding a filed (column) for the image of the book which stores binary data for any file format.
     image = fields.Binary()
 
-
+    # Adding a filed (column) for the status of the book which stores a string of the current state.
     state = fields.Selection([
         ('draft','Draft'),
         ('waiting','Waiting approval'),

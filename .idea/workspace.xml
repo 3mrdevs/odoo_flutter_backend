@@ -233,7 +233,35 @@
       <option name="project" value="LOCAL" />
       <updated>1589688385046</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="active comment">
+      <created>1589688494980</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1589688494980</updated>
+    </task>
+    <task id="LOCAL-00024" summary="number comment">
+      <created>1589688649612</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1589688649612</updated>
+    </task>
+    <task id="LOCAL-00025" summary="description comment">
+      <created>1589688687154</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1589688687155</updated>
+    </task>
+    <task id="LOCAL-00026" summary="image comment">
+      <created>1589688713833</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1589688713833</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +276,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add python initial point" />
     <MESSAGE value="add sub directory python initial point for class models" />
     <MESSAGE value="Writing Odoo model for storing books and doing CRUD operations." />
     <MESSAGE value="Adding a filed (column) for the number of the book." />
@@ -270,6 +297,10 @@
     <MESSAGE value="Adding a filed (column) for the relation of the categories with the books which stores the categories ids which the admin selected. Note: postgres stores then as ids but odoo display them as lists and when you click on them you can choose what categories you want for this book." />
     <MESSAGE value="Adding a filed (column) for the reverse relation of the categories with the books which stores the books ids which the admin selected for the book. Note: postgres stores then as ids but odoo display them as lists and when you click on them you can choose what books you want for this category." />
     <MESSAGE value="name comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="name comment" />
+    <MESSAGE value="active comment" />
+    <MESSAGE value="number comment" />
+    <MESSAGE value="description comment" />
+    <MESSAGE value="image comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="image comment" />
   </component>
 </project>
