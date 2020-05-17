@@ -26,3 +26,5 @@ class Author (models.Model):
     name = fields.Char()
     image = fields.Binary()
 
+    books = fields.One2many("flutter.book","author")
+
