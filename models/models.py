@@ -72,7 +72,10 @@ class Publisher (models.Model):
     _name = 'flutter.publisher'
     _description = 'Model for storing publishers of books and do CRUD operations.'
 
+    # name of the publisher. Char is varchar or string with a small length.
     name = fields.Char()
+
+
     image = fields.Binary()
 
     publishers = fields.One2many("flutter.book", "publisher")
