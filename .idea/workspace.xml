@@ -31,7 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultOdooAccessFileTemplate" value="OdooAccess" />
-    <property name="DefaultOdooModelFileTemplate" value="OdooModel" />
+    <property name="DefaultOdooModelFileTemplate" value="OdooController" />
     <property name="DefaultOdooViewFileTemplate" value="OdooViewSecurity" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
