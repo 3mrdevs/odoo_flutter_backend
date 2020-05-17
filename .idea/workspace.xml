@@ -81,13 +81,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00059" summary="books _name comment">
-      <created>1589691819821</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1589691819821</updated>
-    </task>
     <task id="LOCAL-00060" summary="author _name comment">
       <created>1589691840655</created>
       <option name="number" value="00060" />
@@ -424,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589696302153</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Adding categories menu action to the categories menu.">
+      <created>1589696340541</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696340541</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding views file to Odoo view folder" />
     <MESSAGE value="Adding views file to Odoo manifest so odoo can see this view. Odoo can't see any view file if its not defined in the manifest" />
     <MESSAGE value="Adding a menu item in the Odoo view so we can see our Odoo books library module" />
     <MESSAGE value="Defining a unique id for the parent menu." />
@@ -464,6 +463,7 @@
     <MESSAGE value="Adding authors menu action to the authors menu." />
     <MESSAGE value="Adding categories menu." />
     <MESSAGE value="Adding categories menu action." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding categories menu action." />
+    <MESSAGE value="Adding categories menu action to the categories menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding categories menu action to the categories menu." />
   </component>
 </project>
