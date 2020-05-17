@@ -28,3 +28,8 @@ class Author (models.Model):
 
     books = fields.One2many("flutter.book","author")
 
+class Publisher (models.Model):
+    _name = 'flutter.publisher'
+    _description = 'Model for storing publishers of books and do CRUD operations.'
+
+    name = fields.Char()
