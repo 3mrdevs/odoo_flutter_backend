@@ -11,6 +11,7 @@
     'data': [
         'views/view.xml',
         'security/security.xml',
+        'security/ir.model.access.csv',
     ],
     # 'demo': ['data/demo.xml'],
     'installable': True,
