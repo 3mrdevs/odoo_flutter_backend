@@ -37,3 +37,9 @@ class Publisher (models.Model):
     image = fields.Binary()
 
     publishers = fields.One2many("flutter.book", "publisher")
+
+class Category (models.Model):
+    _name = 'flutter.category'
+    _description = 'Model for storing categories of the books and do CRUD operations.'
+
+    name = fields.Char()
