@@ -2,7 +2,7 @@
 <odoo>
     <data>
 
-        <menuitem/>
+        <menuitem id="root_menu" />
 
     </data>
 </odoo>
