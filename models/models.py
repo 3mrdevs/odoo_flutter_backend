@@ -80,6 +80,8 @@ class Author (models.Model):
 
     # Holds the name of the table in database
     _name = 'flutter.author'
+
+    # Holds the description of the table in database
     _description = 'Model for storing authors of books and do CRUD operations.'
 
     # Sorts the authors descending order with the time of registration.
