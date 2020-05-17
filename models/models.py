@@ -6,6 +6,6 @@ class Books (models.Model):
     _description = 'Model for storing books and do CRUD operations.'
 
     name = fields.Char()
-    
+    number = fields.Integer()
 
 
