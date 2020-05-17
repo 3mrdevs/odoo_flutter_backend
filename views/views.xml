@@ -18,7 +18,7 @@
 
         <menuitem id="root_menu" string="Book Store"/>
         <menuitem id="books_menu" string="Books" parent="root_menu" action="books_action"/>
-        <menuitem id="publishers_menu" string="Publishers" parent="root_menu"/>
+        <menuitem id="publishers_menu" string="Publishers" parent="root_menu" action="publishers_action"/>
 
     </data>
 </odoo>
