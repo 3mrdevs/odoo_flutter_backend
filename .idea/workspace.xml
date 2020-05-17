@@ -27,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultOdooModelFileTemplate" value="OdooInit" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Odoo 12.0/server/odoo-bin" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
