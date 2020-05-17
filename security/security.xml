@@ -6,7 +6,9 @@
             <field name="sequence">1</field>
         </record>
 
-        <record id="group_book_employee" model="res.groups"></record>
+        <record id="group_book_employee" model="res.groups">
+            <field name="name">Employee</field>
+        </record>
 
     </data>
 </odoo>
