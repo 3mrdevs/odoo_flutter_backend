@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__manifest__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +16,7 @@
         <option value="OdooManifest" />
         <option value="OdooInit" />
         <option value="OdooModel" />
+        <option value="OdooViewEmpty" />
       </list>
     </option>
   </component>
@@ -79,34 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00031" summary="price comment">
-      <created>1589689008223</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1589689008223</updated>
-    </task>
-    <task id="LOCAL-00032" summary="author comment">
-      <created>1589689071608</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1589689071608</updated>
-    </task>
-    <task id="LOCAL-00033" summary="publisher comment">
-      <created>1589689110977</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1589689110977</updated>
-    </task>
-    <task id="LOCAL-00034" summary="categories comment">
-      <created>1589689178369</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1589689178369</updated>
     </task>
     <task id="LOCAL-00035" summary="author class comment">
       <created>1589689226226</created>
@@ -423,7 +396,35 @@
       <option name="project" value="LOCAL" />
       <updated>1589692970774</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="required attribute comment">
+      <created>1589693263920</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1589693263921</updated>
+    </task>
+    <task id="LOCAL-00081" summary="readonly attribute comment">
+      <created>1589693348430</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1589693348430</updated>
+    </task>
+    <task id="LOCAL-00082" summary="translate attribute comment">
+      <created>1589693411694</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1589693411694</updated>
+    </task>
+    <task id="LOCAL-00083" summary="adding views file to Odoo view folder">
+      <created>1589693488426</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1589693488426</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,10 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="clean comments" />
-    <MESSAGE value="books class comment" />
-    <MESSAGE value="odoo fields comment" />
-    <MESSAGE value="odoo models comment" />
     <MESSAGE value="odoo api comment" />
     <MESSAGE value="books _name comment" />
     <MESSAGE value="author _name comment" />
@@ -463,6 +460,10 @@
     <MESSAGE value="author name translatable" />
     <MESSAGE value="publisher name translatable" />
     <MESSAGE value="category name translatable" />
-    <option name="LAST_COMMIT_MESSAGE" value="category name translatable" />
+    <MESSAGE value="required attribute comment" />
+    <MESSAGE value="readonly attribute comment" />
+    <MESSAGE value="translate attribute comment" />
+    <MESSAGE value="adding views file to Odoo view folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding views file to Odoo view folder" />
   </component>
 </project>
