@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/description/authors.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/description/books_actions.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/description/books_search.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/description/categories.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/description/odoo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/description/publishers.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -97,20 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00133" summary="Adding the group to the app category using an external id for uniqueness with is the app folder name so Odoo don't get confused.">
-      <created>1589698717872</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1589698717872</updated>
-    </task>
-    <task id="LOCAL-00134" summary="Adding another group for the book store managers access rights.">
-      <created>1589698895607</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1589698895607</updated>
     </task>
     <task id="LOCAL-00135" summary="Naming the group managers.">
       <created>1589698927890</created>
@@ -441,7 +421,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589710847837</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Add more screen-shots">
+      <created>1589711417369</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1589711417369</updated>
+    </task>
+    <task id="LOCAL-00183" summary="Update readme">
+      <created>1589711577057</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1589711577057</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,8 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding access rights csv comment" />
-    <MESSAGE value="Adding security xml file to the manifest so Odoo can see it." />
     <MESSAGE value="Adding security access rights file to the manifest so Odoo can see it." />
     <MESSAGE value="Adding controllers to the python init file so Odoo can see it." />
     <MESSAGE value="Adding api to the python init file in the controller folder so Odoo can see it." />
@@ -481,6 +473,8 @@
     <MESSAGE value="Return the categories of the book in the JSONObject. and Looping through the data to get name because the categories are returned as a list. I changed the way to the search orm method because it returns object and left search_read because it returns list" />
     <MESSAGE value="clean code" />
     <MESSAGE value="Add readme.md and screen-shot 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add readme.md and screen-shot 1" />
+    <MESSAGE value="Add more screen-shots" />
+    <MESSAGE value="Update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update readme" />
   </component>
 </project>
