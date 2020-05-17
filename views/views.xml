@@ -3,7 +3,7 @@
     <data>
 
         <record id="books_action" model="ir.actions.act_window">
-
+            <field name=""></field>
         </record>
 
         <menuitem id="root_menu" string="Book Store"/>
