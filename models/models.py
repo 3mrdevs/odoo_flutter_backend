@@ -98,6 +98,8 @@ class Author (models.Model):
 
 # Adding a publisher model to store publishers info
 class Publisher (models.Model):
+
+    # Holds the name of the table in database
     _name = 'flutter.publisher'
     _description = 'Model for storing publishers of books and do CRUD operations.'
 
