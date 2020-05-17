@@ -90,48 +90,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00119" summary="Adding categories menu comment">
-      <created>1589696910250</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696910250</updated>
-    </task>
-    <task id="LOCAL-00120" summary="Making this module shows in the apps menu of Odoo.">
-      <created>1589697044602</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1589697044602</updated>
-    </task>
-    <task id="LOCAL-00121" summary="Making this module shows on top of all apps with the sequence key in manifest.">
-      <created>1589697113587</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1589697113587</updated>
-    </task>
-    <task id="LOCAL-00122" summary="Changing the app name">
-      <created>1589697234721</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1589697234721</updated>
-    </task>
-    <task id="LOCAL-00123" summary="Adding an icon to the app.">
-      <created>1589697527571</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1589697527571</updated>
-    </task>
-    <task id="LOCAL-00124" summary="Adding an icon to the app.">
-      <created>1589697605980</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1589697605980</updated>
-    </task>
     <task id="LOCAL-00125" summary="Adding security xml file for controlling users access rights">
       <created>1589698155954</created>
       <option name="number" value="00125" />
@@ -433,7 +391,49 @@
       <option name="project" value="LOCAL" />
       <updated>1589706819095</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="Check if there is some data and return it as a JSONFormat">
+      <created>1589706876179</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1589706876179</updated>
+    </task>
+    <task id="LOCAL-00169" summary="If not then return an error as a JSONFormat">
+      <created>1589706905050</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1589706905050</updated>
+    </task>
+    <task id="LOCAL-00170" summary="Return the name of the book in the JSONObject.">
+      <created>1589707017805</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1589707017805</updated>
+    </task>
+    <task id="LOCAL-00171" summary="Return the description of the book in the JSONObject.">
+      <created>1589707039377</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1589707039377</updated>
+    </task>
+    <task id="LOCAL-00172" summary="Return the state of the book in the JSONObject.">
+      <created>1589707058241</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1589707058241</updated>
+    </task>
+    <task id="LOCAL-00173" summary="Return the publish_date of the book in the JSONObject.">
+      <created>1589707075289</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1589707075289</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,12 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding security groups comment" />
-    <MESSAGE value="Adding security category to the employee group comment" />
-    <MESSAGE value="Adding security category to the manager group comment" />
-    <MESSAGE value="Adding implied ids to the manager group comment" />
-    <MESSAGE value="Adding the access rights file" />
-    <MESSAGE value="Adding book model access right in the employee group" />
     <MESSAGE value="Adding publisher model access right in the employee group" />
     <MESSAGE value="Adding author model access right in the employee group" />
     <MESSAGE value="Adding category model access right in the employee group" />
@@ -473,6 +467,12 @@
     <MESSAGE value="Fix menu item fron string to name views xml." />
     <MESSAGE value="Return all books through the books api route" />
     <MESSAGE value="Adding a JSONObject so we can return the data in" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a JSONObject so we can return the data in" />
+    <MESSAGE value="Check if there is some data and return it as a JSONFormat" />
+    <MESSAGE value="If not then return an error as a JSONFormat" />
+    <MESSAGE value="Return the name of the book in the JSONObject." />
+    <MESSAGE value="Return the description of the book in the JSONObject." />
+    <MESSAGE value="Return the state of the book in the JSONObject." />
+    <MESSAGE value="Return the publish_date of the book in the JSONObject." />
+    <option name="LAST_COMMIT_MESSAGE" value="Return the publish_date of the book in the JSONObject." />
   </component>
 </project>
