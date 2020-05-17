@@ -4,6 +4,7 @@
 
         <record id="books_action" model="ir.actions.act_window">
             <field name="name">Books</field>
+            <field name="res_model">flutter.book</field>
         </record>
 
         <menuitem id="root_menu" string="Book Store"/>
