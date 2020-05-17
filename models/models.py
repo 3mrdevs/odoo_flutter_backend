@@ -17,6 +17,8 @@ class Books (models.Model):
     isbn = fields.Char("International Standard Book Number")
     price = fields.Float()
 
+    author = fields.Many2one("flutter.author")
+
 class Author (models.Model):
     _name = 'flutter.author'
     _description = 'Model for storing authors of books and do CRUD operations.'

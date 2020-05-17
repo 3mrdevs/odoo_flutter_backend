@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="Adding a filed (column) for the language of the book which stores string containing the key of the selected option.">
+    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,7 +135,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589683934753</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding a filed (column) for the price cost of the book which stores real number.">
+      <created>1589684153471</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589684153471</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding author model for book authors.">
+      <created>1589684305089</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589684305089</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adding a filed (column) for the image of the author which stores binary of any file format.">
+      <created>1589684560982</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589684560982</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +179,9 @@
     <MESSAGE value="Adding a filed (column) for the image of the book which stores binary data for any file format." />
     <MESSAGE value="Adding a filed (column) for the publish date of the book which stores string containing a date format." />
     <MESSAGE value="Adding a filed (column) for the language of the book which stores string containing the key of the selected option." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a filed (column) for the language of the book which stores string containing the key of the selected option." />
+    <MESSAGE value="Adding a filed (column) for the price cost of the book which stores real number." />
+    <MESSAGE value="Adding author model for book authors." />
+    <MESSAGE value="Adding a filed (column) for the image of the author which stores binary of any file format." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a filed (column) for the image of the author which stores binary of any file format." />
   </component>
 </project>
