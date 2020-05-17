@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/books_create.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,13 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00131" summary="Adding a unique id for our book employees access rights group.">
-      <created>1589698563916</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1589698563916</updated>
     </task>
     <task id="LOCAL-00132" summary="Naming the employee group.">
       <created>1589698589878</created>
@@ -434,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589709099421</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="clean code">
+      <created>1589709521793</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1589709521793</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -449,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding category model access right in the manager group" />
     <MESSAGE value="Clean csv" />
     <MESSAGE value="Adding access rights csv comment" />
     <MESSAGE value="Adding security xml file to the manifest so Odoo can see it." />
@@ -474,6 +474,7 @@
     <MESSAGE value="Looping through the data to cast the date object to a string format." />
     <MESSAGE value="Return the author of the book in the JSONObject. and Looping through the data to get name because the other is returned as a list." />
     <MESSAGE value="Return the categories of the book in the JSONObject. and Looping through the data to get name because the categories are returned as a list. I changed the way to the search orm method because it returns object and left search_read because it returns list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Return the categories of the book in the JSONObject. and Looping through the data to get name because the categories are returned as a list. I changed the way to the search orm method because it returns object and left search_read because it returns list" />
+    <MESSAGE value="clean code" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code" />
   </component>
 </project>
