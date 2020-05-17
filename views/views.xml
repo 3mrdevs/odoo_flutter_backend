@@ -25,7 +25,7 @@
 
         <menuitem id="root_menu" string="Book Store"/>
         <menuitem id="books_menu" string="Books" parent="root_menu" action="books_action"/>
-        <menuitem id="authors_menu" string="Authors" parent="root_menu"/>
+        <menuitem id="authors_menu" string="Authors" parent="root_menu" action="authors_action"/>
         <menuitem id="publishers_menu" string="Publishers" parent="root_menu" action="publishers_action"/>
 
     </data>
