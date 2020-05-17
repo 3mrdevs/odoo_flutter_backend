@@ -88,13 +88,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00116" summary="Adding books menu comment">
-      <created>1589696844504</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696844504</updated>
-    </task>
     <task id="LOCAL-00117" summary="Adding authors menu comment">
       <created>1589696862769</created>
       <option name="number" value="00117" />
@@ -431,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589706254177</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="Fix menu item fron string to name views xml.">
+      <created>1589706398700</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1589706398700</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,7 +446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding manager group comment" />
     <MESSAGE value="Adding security xml file comment" />
     <MESSAGE value="Adding security category comment" />
     <MESSAGE value="Adding security groups comment" />
@@ -471,6 +470,7 @@
     <MESSAGE value="Adding api controller." />
     <MESSAGE value="Rename external id with the folder name of the app. plus renaming the views file to view" />
     <MESSAGE value="Fix group name in access rights." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix group name in access rights." />
+    <MESSAGE value="Fix menu item fron string to name views xml." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix menu item fron string to name views xml." />
   </component>
 </project>
