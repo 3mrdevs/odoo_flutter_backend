@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/views.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/view.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +21,7 @@
         <option value="OdooViewEmpty" />
         <option value="OdooViewSecurity" />
         <option value="OdooAccess" />
+        <option value="OdooController" />
       </list>
     </option>
   </component>
@@ -37,6 +40,11 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/controllers" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\custom_addons\odoo_flutter_backend\controllers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -83,27 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00111" summary="Adding menu items comment">
-      <created>1589696700752</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696700752</updated>
-    </task>
-    <task id="LOCAL-00112" summary="Adding publishers action comment">
-      <created>1589696733053</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696733053</updated>
-    </task>
-    <task id="LOCAL-00113" summary="Adding authors action comment">
-      <created>1589696754131</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696754131</updated>
     </task>
     <task id="LOCAL-00114" summary="Adding categories action comment">
       <created>1589696773584</created>
@@ -427,7 +414,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589705354079</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="Adding controllers to the python init file so Odoo can see it.">
+      <created>1589705438092</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1589705438092</updated>
+    </task>
+    <task id="LOCAL-00161" summary="Adding api to the python init file in the controller folder so Odoo can see it.">
+      <created>1589705498157</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1589705498158</updated>
+    </task>
+    <task id="LOCAL-00162" summary="Adding api controller.">
+      <created>1589705598589</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1589705598589</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,9 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Naming the group managers." />
-    <MESSAGE value="Adding the app category to the group." />
-    <MESSAGE value="Adding the implied ids so Odoo can give more access rights to the manager combined with the employee access rights and show the category drop-down menu in the applications panel in the user section." />
     <MESSAGE value="Adding app category comment" />
     <MESSAGE value="Adding employee group comment" />
     <MESSAGE value="Adding manager group comment" />
@@ -467,6 +472,9 @@
     <MESSAGE value="Adding access rights csv comment" />
     <MESSAGE value="Adding security xml file to the manifest so Odoo can see it." />
     <MESSAGE value="Adding security access rights file to the manifest so Odoo can see it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding security access rights file to the manifest so Odoo can see it." />
+    <MESSAGE value="Adding controllers to the python init file so Odoo can see it." />
+    <MESSAGE value="Adding api to the python init file in the controller folder so Odoo can see it." />
+    <MESSAGE value="Adding api controller." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding api controller." />
   </component>
 </project>
