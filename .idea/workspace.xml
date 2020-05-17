@@ -79,13 +79,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00006" summary="Adding a filed (column) for the image of the book which stores binary data for any file format.">
-      <created>1589683551073</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1589683551073</updated>
-    </task>
     <task id="LOCAL-00007" summary="Adding a filed (column) for the publish date of the book which stores string containing a date format.">
       <created>1589683632954</created>
       <option name="number" value="00007" />
@@ -422,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589690921610</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="books class comment">
+      <created>1589691027018</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1589691027018</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="isbn comment" />
     <MESSAGE value="price comment" />
     <MESSAGE value="author comment" />
     <MESSAGE value="publisher comment" />
@@ -462,6 +461,7 @@
     <MESSAGE value="publishers order comment" />
     <MESSAGE value="categories order comment" />
     <MESSAGE value="clean comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean comments" />
+    <MESSAGE value="books class comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="books class comment" />
   </component>
 </project>
