@@ -44,8 +44,10 @@ class Books (models.Model):
     # Adding a filed (column) for the price cost of the book which stores real number.
     price = fields.Float()
 
-
+    # Adding a filed (column) for the relation of the author with the book which stores the author id who wrote the book.
     author = fields.Many2one("flutter.author")
+
+
     publisher = fields.Many2one("flutter.publisher")
     categories = fields.Many2many("flutter.category")
 
