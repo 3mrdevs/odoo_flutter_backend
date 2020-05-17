@@ -114,7 +114,7 @@ class Publisher (models.Model):
 
     # Adding a filed (column) for the name of the publisher. Char is varchar or string with
     # a small length.
-    name = fields.Char(required=True)
+    name = fields.Char(required=True,translate=True)
 
     # Adding a filed (column) for the image of the publisher which stores binary data for any
     # file format.
