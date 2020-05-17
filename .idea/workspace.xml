@@ -82,27 +82,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00084" summary="Adding views file to Odoo manifest so odoo can see this view. Odoo can't see any view file if its not defined in the manifest">
-      <created>1589693570588</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1589693570589</updated>
-    </task>
-    <task id="LOCAL-00085" summary="Adding a menu item in the Odoo view so we can see our Odoo books library module">
-      <created>1589693669877</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1589693669877</updated>
-    </task>
-    <task id="LOCAL-00086" summary="Defining a unique id for the parent menu.">
-      <created>1589693735697</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1589693735697</updated>
-    </task>
     <task id="LOCAL-00087" summary="Defining a name for the parent menu.">
       <created>1589693766441</created>
       <option name="number" value="00087" />
@@ -425,7 +404,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589698589878</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="Adding the group to the app category using an external id for uniqueness with is the app folder name so Odoo don't get confused.">
+      <created>1589698717872</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1589698717872</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Adding another group for the book store managers access rights.">
+      <created>1589698895607</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1589698895607</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Naming the group managers.">
+      <created>1589698927890</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1589698927890</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,8 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding categories menu action." />
-    <MESSAGE value="Adding categories menu action to the categories menu." />
     <MESSAGE value="Adding records comment" />
     <MESSAGE value="Adding menu items comment" />
     <MESSAGE value="Adding publishers action comment" />
@@ -465,6 +463,8 @@
     <MESSAGE value="Adding a unique id for our book employees access rights group." />
     <MESSAGE value="Naming the employee group." />
     <MESSAGE value="Adding the group to the app category using an external id for uniqueness with is the app folder name so Odoo don't get confused." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the group to the app category using an external id for uniqueness with is the app folder name so Odoo don't get confused." />
+    <MESSAGE value="Adding another group for the book store managers access rights." />
+    <MESSAGE value="Naming the group managers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Naming the group managers." />
   </component>
 </project>

@@ -13,6 +13,7 @@
 
         <record id="group_book_manager" model="res.groups">
             <field name="name">Manager</field>
+            <field name="category_id" ref="odoo_flutter_backend.book_category"/>
         </record>
 
     </data>
