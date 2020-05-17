@@ -79,20 +79,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00004" summary="Adding a filed (column) for the number of the book.">
-      <created>1589683408630</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1589683408630</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Adding a filed (column) for the description of the book which has more string length than char.">
-      <created>1589683483308</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1589683483308</updated>
-    </task>
     <task id="LOCAL-00006" summary="Adding a filed (column) for the image of the book which stores binary data for any file format.">
       <created>1589683551073</created>
       <option name="number" value="00006" />
@@ -422,7 +408,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589690689899</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="categories order comment">
+      <created>1589690723771</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1589690723771</updated>
+    </task>
+    <task id="LOCAL-00054" summary="clean comments">
+      <created>1589690921610</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1589690921610</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,8 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="publish_date comment" />
-    <MESSAGE value="language comment" />
     <MESSAGE value="isbn comment" />
     <MESSAGE value="price comment" />
     <MESSAGE value="author comment" />
@@ -462,6 +460,8 @@
     <MESSAGE value="books order comment" />
     <MESSAGE value="authors order comment" />
     <MESSAGE value="publishers order comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="publishers order comment" />
+    <MESSAGE value="categories order comment" />
+    <MESSAGE value="clean comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean comments" />
   </component>
 </project>

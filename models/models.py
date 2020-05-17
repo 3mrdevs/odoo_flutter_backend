@@ -1,6 +1,6 @@
 from odoo import fields, models, api
 
-
+# Adding books model to store books data.
 class Books (models.Model):
     _name = 'flutter.book'
     _description = 'Model for storing books and do CRUD operations.'
