@@ -90,27 +90,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00125" summary="Adding security xml file for controlling users access rights">
-      <created>1589698155954</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1589698155954</updated>
-    </task>
-    <task id="LOCAL-00126" summary="Same as actions we make a record. Then add the inherit model which is ir.module.category to add a new category to Odoo.">
-      <created>1589698307108</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1589698307108</updated>
-    </task>
-    <task id="LOCAL-00127" summary="Adding a unique id for the category.">
-      <created>1589698329694</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1589698329694</updated>
-    </task>
     <task id="LOCAL-00128" summary="Adding the name of the category.">
       <created>1589698352845</created>
       <option name="number" value="00128" />
@@ -433,7 +412,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589707075289</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="Return the language of the book in the JSONObject.">
+      <created>1589707094901</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1589707094901</updated>
+    </task>
+    <task id="LOCAL-00175" summary="Return the isbn of the book in the JSONObject.">
+      <created>1589707113759</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1589707113760</updated>
+    </task>
+    <task id="LOCAL-00176" summary="Return the price of the book in the JSONObject.">
+      <created>1589707126971</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1589707126971</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,10 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding publisher model access right in the employee group" />
-    <MESSAGE value="Adding author model access right in the employee group" />
-    <MESSAGE value="Adding category model access right in the employee group" />
-    <MESSAGE value="Adding book model access right in the manager group" />
     <MESSAGE value="Adding publisher model access right in the manager group" />
     <MESSAGE value="Adding author model access right in the manager group" />
     <MESSAGE value="Adding category model access right in the manager group" />
@@ -473,6 +469,10 @@
     <MESSAGE value="Return the description of the book in the JSONObject." />
     <MESSAGE value="Return the state of the book in the JSONObject." />
     <MESSAGE value="Return the publish_date of the book in the JSONObject." />
-    <option name="LAST_COMMIT_MESSAGE" value="Return the publish_date of the book in the JSONObject." />
+    <MESSAGE value="Return the language of the book in the JSONObject." />
+    <MESSAGE value="Return the isbn of the book in the JSONObject." />
+    <MESSAGE value="Return the price of the book in the JSONObject." />
+    <MESSAGE value="Looping through the data to cast the date object to a string format." />
+    <option name="LAST_COMMIT_MESSAGE" value="Looping through the data to cast the date object to a string format." />
   </component>
 </project>

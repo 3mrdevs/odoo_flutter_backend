@@ -18,12 +18,14 @@ class Api (http.Controller):
             "language",
             "isbn",
             "price",
+            "author",
         ])
 
         if data:
 
             for book in data:
                 book["publish_date"] = str(book["publish_date"])
+                book["author"] = book["author"][1]
 
             values['success'] = True
             values['data'] = data
