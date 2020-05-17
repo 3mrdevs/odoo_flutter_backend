@@ -35,7 +35,7 @@
     <property name="DefaultOdooViewFileTemplate" value="OdooViewSecurity" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Odoo 12.0/server/odoo-bin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controllers" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
