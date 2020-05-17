@@ -20,7 +20,7 @@ class Books (models.Model):
     _order = "create_date desc"
 
     # Adding a filed (column) for the name of the book. Char is varchar or string with a small length.
-    name = fields.Char(required=True)
+    name = fields.Char(required=True,translate=True)
 
     # Adding a filed (column) for the activeness of the book which stores true or false to determine
     # if the book is still in stock for sale..
