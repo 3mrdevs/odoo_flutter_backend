@@ -82,27 +82,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00081" summary="readonly attribute comment">
-      <created>1589693348430</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1589693348430</updated>
-    </task>
-    <task id="LOCAL-00082" summary="translate attribute comment">
-      <created>1589693411694</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1589693411694</updated>
-    </task>
-    <task id="LOCAL-00083" summary="adding views file to Odoo view folder">
-      <created>1589693488426</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1589693488426</updated>
-    </task>
     <task id="LOCAL-00084" summary="Adding views file to Odoo manifest so odoo can see this view. Odoo can't see any view file if its not defined in the manifest">
       <created>1589693570588</created>
       <option name="number" value="00084" />
@@ -425,7 +404,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589698382524</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Adding a group for the users by inheriting from res.groups model.">
+      <created>1589698513148</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1589698513148</updated>
+    </task>
+    <task id="LOCAL-00131" summary="Adding a unique id for our book employees access rights group.">
+      <created>1589698563916</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1589698563916</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Naming the employee group.">
+      <created>1589698589878</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1589698589878</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,10 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding authors menu" />
-    <MESSAGE value="Adding authors menu action" />
-    <MESSAGE value="Adding authors menu action to the authors menu." />
-    <MESSAGE value="Adding categories menu." />
     <MESSAGE value="Adding categories menu action." />
     <MESSAGE value="Adding categories menu action to the categories menu." />
     <MESSAGE value="Adding records comment" />
@@ -465,6 +461,10 @@
     <MESSAGE value="Adding a unique id for the category." />
     <MESSAGE value="Adding the name of the category." />
     <MESSAGE value="Adding the sequence order of the category." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the sequence order of the category." />
+    <MESSAGE value="Adding a group for the users by inheriting from res.groups model." />
+    <MESSAGE value="Adding a unique id for our book employees access rights group." />
+    <MESSAGE value="Naming the employee group." />
+    <MESSAGE value="Adding the group to the app category using an external id for uniqueness with is the app folder name so Odoo don't get confused." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the group to the app category using an external id for uniqueness with is the app folder name so Odoo don't get confused." />
   </component>
 </project>
