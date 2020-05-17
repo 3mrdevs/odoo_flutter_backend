@@ -6,6 +6,7 @@
             <field name="name">Books</field>
             <field name="res_model">flutter.book</field>
             <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
         </record>
 
         <menuitem id="root_menu" string="Book Store"/>
