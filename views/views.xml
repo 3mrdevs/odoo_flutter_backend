@@ -16,6 +16,13 @@
             <field name="view_mode">tree,form</field>
         </record>
 
+        <record id="authors_action" model="ir.actions.act_window">
+            <field name="name">Authors</field>
+            <field name="res_model">flutter.author</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
         <menuitem id="root_menu" string="Book Store"/>
         <menuitem id="books_menu" string="Books" parent="root_menu" action="books_action"/>
         <menuitem id="authors_menu" string="Authors" parent="root_menu"/>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="" />
+    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/views/views.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/views.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,41 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00050" summary="books order comment">
-      <created>1589690622618</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1589690622619</updated>
-    </task>
-    <task id="LOCAL-00051" summary="authors order comment">
-      <created>1589690666072</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1589690666072</updated>
-    </task>
-    <task id="LOCAL-00052" summary="publishers order comment">
-      <created>1589690689899</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1589690689899</updated>
-    </task>
-    <task id="LOCAL-00053" summary="categories order comment">
-      <created>1589690723771</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1589690723771</updated>
-    </task>
-    <task id="LOCAL-00054" summary="clean comments">
-      <created>1589690921610</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1589690921610</updated>
     </task>
     <task id="LOCAL-00055" summary="books class comment">
       <created>1589691027018</created>
@@ -422,7 +389,42 @@
       <option name="project" value="LOCAL" />
       <updated>1589695781558</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Adding the action we made to the books menu so when we click we can see the model data.">
+      <created>1589695859892</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695859892</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Adding publishers menu just like the books menu">
+      <created>1589695922062</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695922062</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Adding publishers menu action">
+      <created>1589695973896</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695973896</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Adding publishers menu action to the publishers menu.">
+      <created>1589696001032</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696001032</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Adding authors menu">
+      <created>1589696033134</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696033134</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,11 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setting the category name as required" />
-    <MESSAGE value="Setting the book states as readonly" />
-    <MESSAGE value="Adding the ability to translate this field content to other languages. (Amazing Feature)" />
-    <MESSAGE value="author name translatable" />
-    <MESSAGE value="publisher name translatable" />
     <MESSAGE value="category name translatable" />
     <MESSAGE value="required attribute comment" />
     <MESSAGE value="readonly attribute comment" />
@@ -462,6 +459,11 @@
     <MESSAGE value="Adding the model name which we will be opening in the view." />
     <MESSAGE value="Adding the model view type of the model which is the form view. Odoo has more than on view." />
     <MESSAGE value="Adding the more views to the model like the list view." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the more views to the model like the list view." />
+    <MESSAGE value="Adding the action we made to the books menu so when we click we can see the model data." />
+    <MESSAGE value="Adding publishers menu just like the books menu" />
+    <MESSAGE value="Adding publishers menu action" />
+    <MESSAGE value="Adding publishers menu action to the publishers menu." />
+    <MESSAGE value="Adding authors menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding authors menu" />
   </component>
 </project>
