@@ -10,7 +10,9 @@ class Api (http.Controller):
     def get_books(self):
         values = {}
 
-        data = request.env['flutter.book'].sudo().search_read([])
+        data = request.env['flutter.book'].sudo().search_read([],fields=[
+            "name",
+        ])
 
         if data:
             values['success'] = True
