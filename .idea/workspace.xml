@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="" />
+    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/security/ir.model.access.csv" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
         <option value="OdooModel" />
         <option value="OdooViewEmpty" />
         <option value="OdooViewSecurity" />
+        <option value="OdooAccess" />
       </list>
     </option>
   </component>
@@ -27,6 +30,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultOdooAccessFileTemplate" value="OdooAccess" />
     <property name="DefaultOdooModelFileTemplate" value="OdooModel" />
     <property name="DefaultOdooViewFileTemplate" value="OdooViewSecurity" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -79,20 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00096" summary="Adding the model name which we will be opening in the view.">
-      <created>1589695653009</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1589695653009</updated>
-    </task>
-    <task id="LOCAL-00097" summary="Adding the model view type of the model which is the form view. Odoo has more than on view.">
-      <created>1589695717431</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1589695717431</updated>
     </task>
     <task id="LOCAL-00098" summary="Adding the more views to the model like the list view.">
       <created>1589695781558</created>
@@ -423,7 +413,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589703700112</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Adding security category to the manager group comment">
+      <created>1589703907384</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1589703907384</updated>
+    </task>
+    <task id="LOCAL-00146" summary="Adding implied ids to the manager group comment">
+      <created>1589704026976</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1589704026976</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,8 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding categories menu comment" />
-    <MESSAGE value="Making this module shows in the apps menu of Odoo." />
     <MESSAGE value="Making this module shows on top of all apps with the sequence key in manifest." />
     <MESSAGE value="Changing the app name" />
     <MESSAGE value="Adding an icon to the app." />
@@ -463,6 +465,8 @@
     <MESSAGE value="Adding security category comment" />
     <MESSAGE value="Adding security groups comment" />
     <MESSAGE value="Adding security category to the employee group comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding security category to the employee group comment" />
+    <MESSAGE value="Adding security category to the manager group comment" />
+    <MESSAGE value="Adding implied ids to the manager group comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding implied ids to the manager group comment" />
   </component>
 </project>
