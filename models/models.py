@@ -7,5 +7,6 @@ class Books (models.Model):
 
     name = fields.Char()
     number = fields.Integer()
+    description = fields.Text()
 
 
