@@ -81,34 +81,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00041" summary="publisher image comment">
-      <created>1589689850195</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1589689850195</updated>
-    </task>
-    <task id="LOCAL-00042" summary="publisher books comment">
-      <created>1589689970968</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1589689970968</updated>
-    </task>
-    <task id="LOCAL-00043" summary="category model comment">
-      <created>1589690115927</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1589690115927</updated>
-    </task>
-    <task id="LOCAL-00044" summary="category name comment">
-      <created>1589690210021</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1589690210021</updated>
-    </task>
     <task id="LOCAL-00045" summary="category books comment">
       <created>1589690396929</created>
       <option name="number" value="00045" />
@@ -424,7 +396,35 @@
       <option name="project" value="LOCAL" />
       <updated>1589695099971</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Adding a record tag which defines an action for our books menu to view model content.">
+      <created>1589695339925</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695339925</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Define a unique id for the books action record">
+      <created>1589695383497</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695383497</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Inherit the actions model so we can add a new action in the model.">
+      <created>1589695452315</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695452315</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Open the record tag to add the fields data">
+      <created>1589695483586</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695483586</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,11 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="author _description comment" />
-    <MESSAGE value="publishers _description comment" />
-    <MESSAGE value="categories _description comment" />
-    <MESSAGE value="Setting the book name as required" />
-    <MESSAGE value="Setting the book description as required" />
     <MESSAGE value="Setting the book price as required" />
     <MESSAGE value="Setting the book author as required" />
     <MESSAGE value="Setting the book publisher as required" />
@@ -464,6 +459,11 @@
     <MESSAGE value="Defining a name for the parent menu." />
     <MESSAGE value="Adding books model menu so when we click on it we can view the model contents and do CRUD operations." />
     <MESSAGE value="Define a parent for the menu so we can view the menu under out book store Odoo app." />
-    <option name="LAST_COMMIT_MESSAGE" value="Define a parent for the menu so we can view the menu under out book store Odoo app." />
+    <MESSAGE value="Adding a record tag which defines an action for our books menu to view model content." />
+    <MESSAGE value="Define a unique id for the books action record" />
+    <MESSAGE value="Inherit the actions model so we can add a new action in the model." />
+    <MESSAGE value="Open the record tag to add the fields data" />
+    <MESSAGE value="Defining the field which we will add the content with." />
+    <option name="LAST_COMMIT_MESSAGE" value="Defining the field which we will add the content with." />
   </component>
 </project>
