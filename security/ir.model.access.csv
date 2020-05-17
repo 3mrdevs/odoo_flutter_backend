@@ -7,3 +7,4 @@ id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 1m,books manager,model_flutter_book,flutter.group_flutter_manager,1,1,1,1
 2m,publishers manager,model_flutter_publisher,flutter.group_flutter_manager,1,1,1,1
 3m,authors manager,model_flutter_author,flutter.group_flutter_manager,1,1,1,1
+4m,categories manager,model_flutter_category,flutter.group_flutter_manager,1,1,1,1
