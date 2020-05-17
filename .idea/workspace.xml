@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +16,7 @@
       <list>
         <option value="OdooManifest" />
         <option value="OdooInit" />
+        <option value="OdooModel" />
       </list>
     </option>
   </component>
@@ -26,8 +28,9 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultOdooModelFileTemplate" value="OdooInit" />
+    <property name="DefaultOdooModelFileTemplate" value="OdooModel" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Odoo 12.0/server/odoo-bin" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
@@ -77,6 +80,21 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
+    <task id="LOCAL-00001" summary="add python initial point">
+      <created>1589682903189</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589682903189</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add sub directory python initial point for class models">
+      <created>1589683040912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589683040912</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,5 +107,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add python initial point" />
+    <MESSAGE value="add sub directory python initial point for class models" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sub directory python initial point for class models" />
   </component>
 </project>
