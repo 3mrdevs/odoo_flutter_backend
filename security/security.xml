@@ -8,6 +8,7 @@
 
         <record id="group_book_employee" model="res.groups">
             <field name="name">Employee</field>
+            <field name="category_id" ref="odoo_flutter_backend.book_category"/>
         </record>
 
     </data>
