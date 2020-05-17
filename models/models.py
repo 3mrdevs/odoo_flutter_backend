@@ -99,6 +99,8 @@ class Category (models.Model):
     _name = 'flutter.category'
     _description = 'Model for storing categories of the books and do CRUD operations.'
 
+    _order = "create_date desc"
+
     # Adding a filed (column) for the name of the publisher. Char is varchar or string with a small length.
     name = fields.Char()
 
