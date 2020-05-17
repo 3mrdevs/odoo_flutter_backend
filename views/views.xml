@@ -10,7 +10,7 @@
         </record>
 
         <menuitem id="root_menu" string="Book Store"/>
-        <menuitem id="books_menu" string="Books" parent="root_menu"/>
+        <menuitem id="books_menu" string="Books" parent="root_menu" action="books_action"/>
 
     </data>
 </odoo>

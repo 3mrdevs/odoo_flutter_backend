@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/views/views.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/views.xml" afterDir="false" />
-    </list>
+    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,41 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00045" summary="category books comment">
-      <created>1589690396929</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1589690396929</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Sort the books descending order with the time of creation.">
-      <created>1589690485127</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1589690485127</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Sorts the authors descending order with the time of registration.">
-      <created>1589690531029</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1589690531029</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Sorts the publishers descending order with the time of registration.">
-      <created>1589690559648</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1589690559648</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Sorts the categories descending order with the time of creation.">
-      <created>1589690588340</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1589690588340</updated>
     </task>
     <task id="LOCAL-00050" summary="books order comment">
       <created>1589690622618</created>
@@ -424,7 +387,42 @@
       <option name="project" value="LOCAL" />
       <updated>1589695483586</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Defining the field which we will add the content with.">
+      <created>1589695530242</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695530242</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Adding the name of the books action.">
+      <created>1589695575653</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695575653</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Adding the model name which we will be opening in the view.">
+      <created>1589695653009</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695653009</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Adding the model view type of the model which is the form view. Odoo has more than on view.">
+      <created>1589695717431</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695717431</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Adding the more views to the model like the list view.">
+      <created>1589695781558</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695781558</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,10 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setting the book price as required" />
-    <MESSAGE value="Setting the book author as required" />
-    <MESSAGE value="Setting the book publisher as required" />
-    <MESSAGE value="Setting the author name as required" />
     <MESSAGE value="Setting the category name as required" />
     <MESSAGE value="Setting the book states as readonly" />
     <MESSAGE value="Adding the ability to translate this field content to other languages. (Amazing Feature)" />
@@ -464,6 +458,10 @@
     <MESSAGE value="Inherit the actions model so we can add a new action in the model." />
     <MESSAGE value="Open the record tag to add the fields data" />
     <MESSAGE value="Defining the field which we will add the content with." />
-    <option name="LAST_COMMIT_MESSAGE" value="Defining the field which we will add the content with." />
+    <MESSAGE value="Adding the name of the books action." />
+    <MESSAGE value="Adding the model name which we will be opening in the view." />
+    <MESSAGE value="Adding the model view type of the model which is the form view. Odoo has more than on view." />
+    <MESSAGE value="Adding the more views to the model like the list view." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the more views to the model like the list view." />
   </component>
 </project>
