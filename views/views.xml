@@ -36,6 +36,7 @@
             <field name="view_mode">tree,form</field>
         </record>
 
+        <!-- App root menu -->
         <menuitem id="root_menu" string="Book Store"/>
         <menuitem id="books_menu" string="Books" parent="root_menu" action="books_action"/>
         <menuitem id="authors_menu" string="Authors" parent="root_menu" action="authors_action"/>
