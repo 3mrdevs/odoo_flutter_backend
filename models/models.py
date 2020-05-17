@@ -55,3 +55,4 @@ class Category (models.Model):
     _description = 'Model for storing categories of the books and do CRUD operations.'
 
     name = fields.Char()
+    books = fields.Many2many("flutter.book")
