@@ -81,13 +81,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00040" summary="publisher name comment">
-      <created>1589689771727</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1589689771728</updated>
-    </task>
     <task id="LOCAL-00041" summary="publisher image comment">
       <created>1589689850195</created>
       <option name="number" value="00041" />
@@ -424,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589694141323</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Define a parent for the menu so we can view the menu under out book store Odoo app.">
+      <created>1589695099971</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1589695099971</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="books _description comment" />
     <MESSAGE value="author _description comment" />
     <MESSAGE value="publishers _description comment" />
     <MESSAGE value="categories _description comment" />
@@ -464,6 +463,7 @@
     <MESSAGE value="Defining a unique id for the parent menu." />
     <MESSAGE value="Defining a name for the parent menu." />
     <MESSAGE value="Adding books model menu so when we click on it we can view the model contents and do CRUD operations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding books model menu so when we click on it we can view the model contents and do CRUD operations." />
+    <MESSAGE value="Define a parent for the menu so we can view the menu under out book store Odoo app." />
+    <option name="LAST_COMMIT_MESSAGE" value="Define a parent for the menu so we can view the menu under out book store Odoo app." />
   </component>
 </project>

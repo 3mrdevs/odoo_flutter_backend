@@ -2,6 +2,8 @@
 <odoo>
     <data>
 
+        <record />
+
         <menuitem id="root_menu" string="Book Store"/>
         <menuitem id="books_menu" string="Books" parent="root_menu"/>
 
