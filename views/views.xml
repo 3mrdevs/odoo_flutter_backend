@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
+        <!-- Records are the way that Odoo insert data to models using an xml templates. -->
 
         <!-- Books menu action -->
         <record id="books_action" model="ir.actions.act_window">
