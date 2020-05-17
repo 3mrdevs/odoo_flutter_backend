@@ -1,5 +1,5 @@
 {
-    'name': 'Odoo flutter back-end',
+    'name': 'Odoo Flutter Backend',
     'sequence': -1,
     'version': '13.0.1',
     'summary': 'Odoo flutter back-end example',
