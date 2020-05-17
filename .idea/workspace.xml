@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/views.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/view.xml" afterDir="false" />
-    </list>
+    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,20 +87,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00114" summary="Adding categories action comment">
-      <created>1589696773584</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696773584</updated>
-    </task>
-    <task id="LOCAL-00115" summary="Adding root menu comment">
-      <created>1589696823605</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696823605</updated>
     </task>
     <task id="LOCAL-00116" summary="Adding books menu comment">
       <created>1589696844504</created>
@@ -435,7 +417,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589705598589</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="Rename external id with the folder name of the app. plus renaming the views file to view">
+      <created>1589706123920</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1589706123920</updated>
+    </task>
+    <task id="LOCAL-00164" summary="Fix group name in access rights.">
+      <created>1589706254177</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1589706254177</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,8 +446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding app category comment" />
-    <MESSAGE value="Adding employee group comment" />
     <MESSAGE value="Adding manager group comment" />
     <MESSAGE value="Adding security xml file comment" />
     <MESSAGE value="Adding security category comment" />
@@ -475,6 +469,8 @@
     <MESSAGE value="Adding controllers to the python init file so Odoo can see it." />
     <MESSAGE value="Adding api to the python init file in the controller folder so Odoo can see it." />
     <MESSAGE value="Adding api controller." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding api controller." />
+    <MESSAGE value="Rename external id with the folder name of the app. plus renaming the views file to view" />
+    <MESSAGE value="Fix group name in access rights." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix group name in access rights." />
   </component>
 </project>

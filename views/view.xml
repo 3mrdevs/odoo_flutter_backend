@@ -38,19 +38,19 @@
         </record>
 
         <!-- App root menu -->
-        <menuitem id="root_menu" string="Book Store"/>
+        <menuitem id="root_menu" name="Book Store"/>
 
         <!-- Books menu -->
-        <menuitem id="books_menu" string="Books" parent="root_menu" action="books_action"/>
+        <menuitem id="books_menu" name="Books" parent="root_menu" action="books_action"/>
 
         <!-- Authors menu -->
-        <menuitem id="authors_menu" string="Authors" parent="root_menu" action="authors_action"/>
+        <menuitem id="authors_menu" name="Authors" parent="root_menu" action="authors_action"/>
 
         <!-- Publishers menu -->
-        <menuitem id="publishers_menu" string="Publishers" parent="root_menu" action="publishers_action"/>
+        <menuitem id="publishers_menu" name="Publishers" parent="root_menu" action="publishers_action"/>
 
         <!-- Categories menu -->
-        <menuitem id="categories_menu" string="Categories" parent="root_menu" action="categories_action" />
+        <menuitem id="categories_menu" name="Categories" parent="root_menu" action="categories_action" />
 
     </data>
 </odoo>
