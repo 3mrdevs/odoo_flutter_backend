@@ -8,7 +8,10 @@
     'author': '3mrdev',
     'website': 'https://3mr.dev',
     'license': 'LGPL-3',
-    'data': ['views/view.xml'],
+    'data': [
+        'views/view.xml',
+        'security/security.xml',
+    ],
     # 'demo': ['data/demo.xml'],
     'installable': True,
     'application': True,
