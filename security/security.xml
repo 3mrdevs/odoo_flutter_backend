@@ -3,6 +3,7 @@
     <data>
 
         <!-- This xml file is to add security with access rights to every user who uses the app -->
+        <!-- We will add the inherit model which is ir.module.category to add a new access rights category to Users view -->
 
         <!-- App access rights category-->
         <record model="ir.module.category" id="book_category">
