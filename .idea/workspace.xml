@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/security/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,27 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00108" summary="Adding categories menu action to the categories menu.">
-      <created>1589696340541</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696340541</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Adding books menu comment">
-      <created>1589696655596</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696655596</updated>
-    </task>
-    <task id="LOCAL-00110" summary="Adding records comment">
-      <created>1589696685497</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696685497</updated>
     </task>
     <task id="LOCAL-00111" summary="Adding menu items comment">
       <created>1589696700752</created>
@@ -427,7 +406,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589704887553</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="Adding access rights csv comment">
+      <created>1589705174228</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1589705174228</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Adding security xml file to the manifest so Odoo can see it.">
+      <created>1589705326713</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1589705326713</updated>
+    </task>
+    <task id="LOCAL-00159" summary="Adding security access rights file to the manifest so Odoo can see it.">
+      <created>1589705354079</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1589705354079</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,9 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Naming the employee group." />
-    <MESSAGE value="Adding the group to the app category using an external id for uniqueness with is the app folder name so Odoo don't get confused." />
-    <MESSAGE value="Adding another group for the book store managers access rights." />
     <MESSAGE value="Naming the group managers." />
     <MESSAGE value="Adding the app category to the group." />
     <MESSAGE value="Adding the implied ids so Odoo can give more access rights to the manager combined with the employee access rights and show the category drop-down menu in the applications panel in the user section." />
@@ -467,6 +464,9 @@
     <MESSAGE value="Adding author model access right in the manager group" />
     <MESSAGE value="Adding category model access right in the manager group" />
     <MESSAGE value="Clean csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean csv" />
+    <MESSAGE value="Adding access rights csv comment" />
+    <MESSAGE value="Adding security xml file to the manifest so Odoo can see it." />
+    <MESSAGE value="Adding security access rights file to the manifest so Odoo can see it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding security access rights file to the manifest so Odoo can see it." />
   </component>
 </project>
