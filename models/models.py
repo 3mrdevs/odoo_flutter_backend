@@ -63,7 +63,7 @@ class Books (models.Model):
 
     # Adding a filed (column) for the relation of the author with the book which stores
     # the author id who wrote the book.
-    author = fields.Many2one("flutter.author")
+    author = fields.Many2one("flutter.author",required=True)
 
     # Adding a filed (column) for the relation of the publisher with the book which stores
     # the publisher id who published the book of the author.
