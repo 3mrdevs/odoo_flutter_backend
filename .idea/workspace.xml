@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/security/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,20 +81,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Defining a name for the parent menu.">
-      <created>1589693766441</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1589693766441</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Adding books model menu so when we click on it we can view the model contents and do CRUD operations.">
-      <created>1589694141323</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1589694141323</updated>
     </task>
     <task id="LOCAL-00089" summary="Define a parent for the menu so we can view the menu under out book store Odoo app.">
       <created>1589695099971</created>
@@ -425,7 +411,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589698927890</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Adding the app category to the group.">
+      <created>1589699000520</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1589699000520</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Adding the implied ids so Odoo can give more access rights to the manager combined with the employee access rights and show the category drop-down menu in the applications panel in the user section.">
+      <created>1589699131446</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1589699131446</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,8 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding records comment" />
-    <MESSAGE value="Adding menu items comment" />
     <MESSAGE value="Adding publishers action comment" />
     <MESSAGE value="Adding authors action comment" />
     <MESSAGE value="Adding categories action comment" />
@@ -465,6 +463,8 @@
     <MESSAGE value="Adding the group to the app category using an external id for uniqueness with is the app folder name so Odoo don't get confused." />
     <MESSAGE value="Adding another group for the book store managers access rights." />
     <MESSAGE value="Naming the group managers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Naming the group managers." />
+    <MESSAGE value="Adding the app category to the group." />
+    <MESSAGE value="Adding the implied ids so Odoo can give more access rights to the manager combined with the employee access rights and show the category drop-down menu in the applications panel in the user section." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the implied ids so Odoo can give more access rights to the manager combined with the employee access rights and show the category drop-down menu in the applications panel in the user section." />
   </component>
 </project>
