@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/security.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,27 +82,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00089" summary="Define a parent for the menu so we can view the menu under out book store Odoo app.">
-      <created>1589695099971</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1589695099971</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Adding a record tag which defines an action for our books menu to view model content.">
-      <created>1589695339925</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1589695339925</updated>
-    </task>
-    <task id="LOCAL-00091" summary="Define a unique id for the books action record">
-      <created>1589695383497</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1589695383497</updated>
     </task>
     <task id="LOCAL-00092" summary="Inherit the actions model so we can add a new action in the model.">
       <created>1589695452315</created>
@@ -425,7 +405,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589699131446</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="Adding app category comment">
+      <created>1589700294056</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1589700294056</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Adding employee group comment">
+      <created>1589700344663</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1589700344663</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Adding manager group comment">
+      <created>1589700362280</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1589700362280</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,9 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding publishers action comment" />
-    <MESSAGE value="Adding authors action comment" />
-    <MESSAGE value="Adding categories action comment" />
     <MESSAGE value="Adding root menu comment" />
     <MESSAGE value="Adding books menu comment" />
     <MESSAGE value="Adding authors menu comment" />
@@ -465,6 +463,9 @@
     <MESSAGE value="Naming the group managers." />
     <MESSAGE value="Adding the app category to the group." />
     <MESSAGE value="Adding the implied ids so Odoo can give more access rights to the manager combined with the employee access rights and show the category drop-down menu in the applications panel in the user section." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the implied ids so Odoo can give more access rights to the manager combined with the employee access rights and show the category drop-down menu in the applications panel in the user section." />
+    <MESSAGE value="Adding app category comment" />
+    <MESSAGE value="Adding employee group comment" />
+    <MESSAGE value="Adding manager group comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding manager group comment" />
   </component>
 </project>
