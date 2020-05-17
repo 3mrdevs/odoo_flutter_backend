@@ -16,15 +16,15 @@ class Api (http.Controller):
             books = []
             for book_data in data:
                 book = {
-                    "name": str(book_data["name"]),
-                    "description": book_data["description"],
-                    "state": book_data["state"],
-                    "publish_date": str(book_data["publish_date"]),
-                    "language": book_data["language"],
-                    "isbn": book_data["isbn"],
-                    "price": book_data["price"],
-                    "author": book_data["author"]["name"],
-                    "publisher": book_data["publisher"]["name"],
+                    "name": str(book_data.name),
+                    "description": book_data.description,
+                    "state": book_data.state,
+                    "publish_date": str(book_data.publish_date),
+                    "language": book_data.language,
+                    "isbn": book_data.isbn,
+                    "price": book_data.price,
+                    "author": book_data.author.name,
+                    "publisher": book_data.publisher.name,
                 }
                 categories = []
                 for category in book_data.categories:

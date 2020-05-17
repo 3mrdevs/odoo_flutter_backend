@@ -91,13 +91,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00130" summary="Adding a group for the users by inheriting from res.groups model.">
-      <created>1589698513148</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1589698513148</updated>
-    </task>
     <task id="LOCAL-00131" summary="Adding a unique id for our book employees access rights group.">
       <created>1589698563916</created>
       <option name="number" value="00131" />
@@ -434,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589707628972</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="Return the categories of the book in the JSONObject. and Looping through the data to get name because the categories are returned as a list. I changed the way to the search orm method because it returns object and left search_read because it returns list">
+      <created>1589709099421</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1589709099421</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -449,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding author model access right in the manager group" />
     <MESSAGE value="Adding category model access right in the manager group" />
     <MESSAGE value="Clean csv" />
     <MESSAGE value="Adding access rights csv comment" />
@@ -474,6 +473,7 @@
     <MESSAGE value="Return the price of the book in the JSONObject." />
     <MESSAGE value="Looping through the data to cast the date object to a string format." />
     <MESSAGE value="Return the author of the book in the JSONObject. and Looping through the data to get name because the other is returned as a list." />
-    <option name="LAST_COMMIT_MESSAGE" value="Return the author of the book in the JSONObject. and Looping through the data to get name because the other is returned as a list." />
+    <MESSAGE value="Return the categories of the book in the JSONObject. and Looping through the data to get name because the categories are returned as a list. I changed the way to the search orm method because it returns object and left search_read because it returns list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Return the categories of the book in the JSONObject. and Looping through the data to get name because the categories are returned as a list. I changed the way to the search orm method because it returns object and left search_read because it returns list" />
   </component>
 </project>
