@@ -81,34 +81,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00055" summary="books class comment">
-      <created>1589691027018</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1589691027018</updated>
-    </task>
-    <task id="LOCAL-00056" summary="odoo fields comment">
-      <created>1589691379204</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1589691379204</updated>
-    </task>
-    <task id="LOCAL-00057" summary="odoo models comment">
-      <created>1589691516750</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1589691516750</updated>
-    </task>
-    <task id="LOCAL-00058" summary="odoo api comment">
-      <created>1589691751519</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1589691751519</updated>
-    </task>
     <task id="LOCAL-00059" summary="books _name comment">
       <created>1589691819821</created>
       <option name="number" value="00059" />
@@ -424,7 +396,35 @@
       <option name="project" value="LOCAL" />
       <updated>1589696033134</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Adding authors menu action">
+      <created>1589696132331</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696132331</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Adding authors menu action to the authors menu.">
+      <created>1589696159984</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696159984</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Adding categories menu.">
+      <created>1589696269828</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696269828</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Adding categories menu action.">
+      <created>1589696302153</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696302153</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,10 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="category name translatable" />
-    <MESSAGE value="required attribute comment" />
-    <MESSAGE value="readonly attribute comment" />
-    <MESSAGE value="translate attribute comment" />
     <MESSAGE value="adding views file to Odoo view folder" />
     <MESSAGE value="Adding views file to Odoo manifest so odoo can see this view. Odoo can't see any view file if its not defined in the manifest" />
     <MESSAGE value="Adding a menu item in the Odoo view so we can see our Odoo books library module" />
@@ -464,6 +460,10 @@
     <MESSAGE value="Adding publishers menu action" />
     <MESSAGE value="Adding publishers menu action to the publishers menu." />
     <MESSAGE value="Adding authors menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding authors menu" />
+    <MESSAGE value="Adding authors menu action" />
+    <MESSAGE value="Adding authors menu action to the authors menu." />
+    <MESSAGE value="Adding categories menu." />
+    <MESSAGE value="Adding categories menu action." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding categories menu action." />
   </component>
 </project>
