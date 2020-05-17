@@ -3,7 +3,7 @@
     <data>
 
         <menuitem id="root_menu" string="Book Store"/>
-        <menuitem id="books_menu" string="Books"/>
+        <menuitem id="books_menu" string="Books" parent="root_menu"/>
 
     </data>
 </odoo>

@@ -81,13 +81,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00039" summary="publisher model comment">
-      <created>1589689740728</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1589689740728</updated>
-    </task>
     <task id="LOCAL-00040" summary="publisher name comment">
       <created>1589689771727</created>
       <option name="number" value="00040" />
@@ -424,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589693766441</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Adding books model menu so when we click on it we can view the model contents and do CRUD operations.">
+      <created>1589694141323</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1589694141323</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="categories _name comment" />
     <MESSAGE value="books _description comment" />
     <MESSAGE value="author _description comment" />
     <MESSAGE value="publishers _description comment" />
@@ -464,6 +463,7 @@
     <MESSAGE value="Adding a menu item in the Odoo view so we can see our Odoo books library module" />
     <MESSAGE value="Defining a unique id for the parent menu." />
     <MESSAGE value="Defining a name for the parent menu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Defining a name for the parent menu." />
+    <MESSAGE value="Adding books model menu so when we click on it we can view the model contents and do CRUD operations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding books model menu so when we click on it we can view the model contents and do CRUD operations." />
   </component>
 </project>
