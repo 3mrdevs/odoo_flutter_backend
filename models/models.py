@@ -10,5 +10,9 @@ class Books (models.Model):
     description = fields.Text()
     image = fields.Binary()
     publish_date = fields.Date()
+    language = fields.Selection([
+        ('ar','Arabic'),
+        ('en','english')
+    ],default='en')
 
 

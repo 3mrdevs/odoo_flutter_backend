@@ -114,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589683483308</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding a filed (column) for the image of the book which stores binary data for any file format.">
+      <created>1589683551073</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589683551073</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding a filed (column) for the publish date of the book which stores string containing a date format.">
+      <created>1589683632954</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589683632954</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +148,8 @@
     <MESSAGE value="Writing Odoo model for storing books and doing CRUD operations." />
     <MESSAGE value="Adding a filed (column) for the number of the book." />
     <MESSAGE value="Adding a filed (column) for the description of the book which has more string length than char." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a filed (column) for the description of the book which has more string length than char." />
+    <MESSAGE value="Adding a filed (column) for the image of the book which stores binary data for any file format." />
+    <MESSAGE value="Adding a filed (column) for the publish date of the book which stores string containing a date format." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a filed (column) for the publish date of the book which stores string containing a date format." />
   </component>
 </project>
