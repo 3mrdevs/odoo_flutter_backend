@@ -28,6 +28,7 @@
             <field name="view_mode">tree,form</field>
         </record>
 
+        <!-- Categories menu action -->
         <record id="categories_action" model="ir.actions.act_window">
             <field name="name">Categories</field>
             <field name="res_model">flutter.category</field>
