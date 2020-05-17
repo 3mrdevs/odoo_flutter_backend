@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="" />
+    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/controllers/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/api.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,20 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00117" summary="Adding authors menu comment">
-      <created>1589696862769</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696862769</updated>
-    </task>
-    <task id="LOCAL-00118" summary="Adding publishers menu comment">
-      <created>1589696889610</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696889610</updated>
     </task>
     <task id="LOCAL-00119" summary="Adding categories menu comment">
       <created>1589696910250</created>
@@ -431,7 +419,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589706398700</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Return all books through the books api route">
+      <created>1589706766558</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1589706766558</updated>
+    </task>
+    <task id="LOCAL-00167" summary="Adding a JSONObject so we can return the data in">
+      <created>1589706819095</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1589706819095</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,8 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding security xml file comment" />
-    <MESSAGE value="Adding security category comment" />
     <MESSAGE value="Adding security groups comment" />
     <MESSAGE value="Adding security category to the employee group comment" />
     <MESSAGE value="Adding security category to the manager group comment" />
@@ -471,6 +471,8 @@
     <MESSAGE value="Rename external id with the folder name of the app. plus renaming the views file to view" />
     <MESSAGE value="Fix group name in access rights." />
     <MESSAGE value="Fix menu item fron string to name views xml." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix menu item fron string to name views xml." />
+    <MESSAGE value="Return all books through the books api route" />
+    <MESSAGE value="Adding a JSONObject so we can return the data in" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a JSONObject so we can return the data in" />
   </component>
 </project>

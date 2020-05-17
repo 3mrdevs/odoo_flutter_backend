@@ -11,3 +11,9 @@ class Api (http.Controller):
         values = {}
 
         data = request.env['flutter.book'].sudo().search_read([])
+
+        if data:
+            values['success'] = True
+            values['data'] = data
+
+        return json.dumps(values)
