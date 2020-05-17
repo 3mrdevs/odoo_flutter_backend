@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,20 +90,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00128" summary="Adding the name of the category.">
-      <created>1589698352845</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1589698352845</updated>
-    </task>
-    <task id="LOCAL-00129" summary="Adding the sequence order of the category.">
-      <created>1589698382524</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1589698382524</updated>
     </task>
     <task id="LOCAL-00130" summary="Adding a group for the users by inheriting from res.groups model.">
       <created>1589698513148</created>
@@ -433,7 +420,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589707126971</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="Looping through the data to cast the date object to a string format.">
+      <created>1589707349551</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1589707349551</updated>
+    </task>
+    <task id="LOCAL-00178" summary="Return the author of the book in the JSONObject. and Looping through the data to get name because the other is returned as a list.">
+      <created>1589707628972</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1589707628972</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding publisher model access right in the manager group" />
     <MESSAGE value="Adding author model access right in the manager group" />
     <MESSAGE value="Adding category model access right in the manager group" />
     <MESSAGE value="Clean csv" />
@@ -473,6 +473,7 @@
     <MESSAGE value="Return the isbn of the book in the JSONObject." />
     <MESSAGE value="Return the price of the book in the JSONObject." />
     <MESSAGE value="Looping through the data to cast the date object to a string format." />
-    <option name="LAST_COMMIT_MESSAGE" value="Looping through the data to cast the date object to a string format." />
+    <MESSAGE value="Return the author of the book in the JSONObject. and Looping through the data to get name because the other is returned as a list." />
+    <option name="LAST_COMMIT_MESSAGE" value="Return the author of the book in the JSONObject. and Looping through the data to get name because the other is returned as a list." />
   </component>
 </project>
