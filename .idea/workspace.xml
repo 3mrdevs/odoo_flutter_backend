@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/description/books_create.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/authors.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/books_actions.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/books_search.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/categories.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/odoo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/publishers.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +43,12 @@
     <property name="DefaultOdooViewFileTemplate" value="OdooViewSecurity" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/description" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\custom_addons\odoo_flutter_backend\static\description" />
       <recent name="C:\custom_addons\odoo_flutter_backend\controllers" />
     </key>
   </component>
@@ -91,13 +97,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00132" summary="Naming the employee group.">
-      <created>1589698589878</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1589698589878</updated>
     </task>
     <task id="LOCAL-00133" summary="Adding the group to the app category using an external id for uniqueness with is the app folder name so Odoo don't get confused.">
       <created>1589698717872</created>
@@ -435,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589709521793</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="Add readme.md and screen-shot 1">
+      <created>1589710847837</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1589710847837</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Clean csv" />
     <MESSAGE value="Adding access rights csv comment" />
     <MESSAGE value="Adding security xml file to the manifest so Odoo can see it." />
     <MESSAGE value="Adding security access rights file to the manifest so Odoo can see it." />
@@ -475,6 +480,7 @@
     <MESSAGE value="Return the author of the book in the JSONObject. and Looping through the data to get name because the other is returned as a list." />
     <MESSAGE value="Return the categories of the book in the JSONObject. and Looping through the data to get name because the categories are returned as a list. I changed the way to the search orm method because it returns object and left search_read because it returns list" />
     <MESSAGE value="clean code" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean code" />
+    <MESSAGE value="Add readme.md and screen-shot 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add readme.md and screen-shot 1" />
   </component>
 </project>

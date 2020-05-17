@@ -1,4 +1,5 @@
-![In App Experience](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/icon.png?raw=true)
+![Flutter Logo](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/icon.png?raw=true)
+![Odoo Logo](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/odoo.png?raw=true)
 
 <h1>Odoo Flutter Backend Example </h1>
 
@@ -11,3 +12,20 @@
 <p>
 This <a href="https://github.com/3mrdevs/odoo_flutter_backend">Odoo Flutter Backend</a> is a simple example of a book store back-end with <a href="https://www.odoo.com">Odoo</a> for a <a href="https://www.flutter.dev">flutter</a> app with an API controller.
 </p>
+
+<h3> Books (CRUD) </h3>
+
+![Books](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/books_create.PNG?raw=true)
+![Books](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/books_actions.PNG?raw=true)
+![Books](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/books_search.PNG?raw=true)
+<h3> Authors (CRUD) </h3>
+
+![Authors](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/authors.PNG?raw=true)
+
+<h3> Publishers (CRUD) </h3>
+
+![Publishers](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/publishers.PNG?raw=true)
+
+<h3> Categories (CRUD) </h3>
+
+![Categories](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/categories.PNG?raw=true)
