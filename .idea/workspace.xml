@@ -81,69 +81,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00060" summary="author _name comment">
-      <created>1589691840655</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1589691840655</updated>
-    </task>
-    <task id="LOCAL-00061" summary="publisher _name comment">
-      <created>1589691858974</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1589691858974</updated>
-    </task>
-    <task id="LOCAL-00062" summary="categories _name comment">
-      <created>1589691881671</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1589691881671</updated>
-    </task>
-    <task id="LOCAL-00063" summary="books _description comment">
-      <created>1589691944512</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1589691944512</updated>
-    </task>
-    <task id="LOCAL-00064" summary="author _description comment">
-      <created>1589691962428</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1589691962428</updated>
-    </task>
-    <task id="LOCAL-00065" summary="publishers _description comment">
-      <created>1589691975817</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1589691975817</updated>
-    </task>
-    <task id="LOCAL-00066" summary="categories _description comment">
-      <created>1589691988042</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1589691988042</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Setting the book name as required">
-      <created>1589692218789</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1589692218790</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Setting the book description as required">
-      <created>1589692234800</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1589692234800</updated>
-    </task>
     <task id="LOCAL-00069" summary="Setting the book price as required">
       <created>1589692258547</created>
       <option name="number" value="00069" />
@@ -424,7 +361,70 @@
       <option name="project" value="LOCAL" />
       <updated>1589696340541</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Adding books menu comment">
+      <created>1589696655596</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696655596</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Adding records comment">
+      <created>1589696685497</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696685497</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Adding menu items comment">
+      <created>1589696700752</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696700752</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Adding publishers action comment">
+      <created>1589696733053</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696733053</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Adding authors action comment">
+      <created>1589696754131</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696754131</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Adding categories action comment">
+      <created>1589696773584</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696773584</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Adding root menu comment">
+      <created>1589696823605</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696823605</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Adding books menu comment">
+      <created>1589696844504</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696844504</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Adding authors menu comment">
+      <created>1589696862769</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1589696862769</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,14 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding views file to Odoo manifest so odoo can see this view. Odoo can't see any view file if its not defined in the manifest" />
-    <MESSAGE value="Adding a menu item in the Odoo view so we can see our Odoo books library module" />
-    <MESSAGE value="Defining a unique id for the parent menu." />
-    <MESSAGE value="Defining a name for the parent menu." />
-    <MESSAGE value="Adding books model menu so when we click on it we can view the model contents and do CRUD operations." />
-    <MESSAGE value="Define a parent for the menu so we can view the menu under out book store Odoo app." />
-    <MESSAGE value="Adding a record tag which defines an action for our books menu to view model content." />
-    <MESSAGE value="Define a unique id for the books action record" />
     <MESSAGE value="Inherit the actions model so we can add a new action in the model." />
     <MESSAGE value="Open the record tag to add the fields data" />
     <MESSAGE value="Defining the field which we will add the content with." />
@@ -464,6 +456,14 @@
     <MESSAGE value="Adding categories menu." />
     <MESSAGE value="Adding categories menu action." />
     <MESSAGE value="Adding categories menu action to the categories menu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding categories menu action to the categories menu." />
+    <MESSAGE value="Adding records comment" />
+    <MESSAGE value="Adding menu items comment" />
+    <MESSAGE value="Adding publishers action comment" />
+    <MESSAGE value="Adding authors action comment" />
+    <MESSAGE value="Adding categories action comment" />
+    <MESSAGE value="Adding root menu comment" />
+    <MESSAGE value="Adding books menu comment" />
+    <MESSAGE value="Adding authors menu comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding authors menu comment" />
   </component>
 </project>
