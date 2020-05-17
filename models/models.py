@@ -5,10 +5,10 @@ class Books (models.Model):
     _name = 'flutter.book'
     _description = 'Model for storing books and do CRUD operations.'
 
-    # name of the book. Char is varchar or string with a small length.
+    # Adding a filed (column) for the name of the book. Char is varchar or string with a small length.
     name = fields.Char()
 
-    # active is to determine if the book available or not. Boolean is true or false value.
+    # Adding a filed (column) for the activeness of the book which stores true or false to determine if the book is still in stock for sale..
     active = fields.Boolean(default=True)
 
     # Adding a filed (column) for the number of the book. Integer is a field for numbers.
@@ -37,8 +37,8 @@ class Books (models.Model):
         ('en','english')
     ],default='en')
 
-    # name of the book. Char is varchar or string with a small length. you can use char to store numbers sometime which
-    # is more advanced.
+    # Adding a filed (column) for the isbn of the book. Char is varchar or string with a small length.
+    # You can use char to store numbers sometime which is more advanced.
     isbn = fields.Char("International Standard Book Number")
 
     # Adding a filed (column) for the price cost of the book which stores real number.
@@ -61,7 +61,7 @@ class Author (models.Model):
     _name = 'flutter.author'
     _description = 'Model for storing authors of books and do CRUD operations.'
 
-    # name of the author. Char is varchar or string with a small length.
+    # Adding a filed (column) for the name of the author. Char is varchar or string with a small length.
     name = fields.Char()
 
     # Adding a filed (column) for the image of the author which stores binary data for any file format.
@@ -77,7 +77,7 @@ class Publisher (models.Model):
     _name = 'flutter.publisher'
     _description = 'Model for storing publishers of books and do CRUD operations.'
 
-    # name of the publisher. Char is varchar or string with a small length.
+    # Adding a filed (column) for the name of the publisher. Char is varchar or string with a small length.
     name = fields.Char()
 
     # Adding a filed (column) for the image of the publisher which stores binary data for any file format.
@@ -93,8 +93,10 @@ class Category (models.Model):
     _name = 'flutter.category'
     _description = 'Model for storing categories of the books and do CRUD operations.'
 
-    # name of the publisher. Char is varchar or string with a small length.
+    # Adding a filed (column) for the name of the publisher. Char is varchar or string with a small length.
     name = fields.Char()
 
-
+    # Adding a filed (column) for the reverse relation of the categories with the books which stores the
+    # books ids which the admin selected for the book. Note: postgres stores then as ids but odoo display
+    # them as lists and when you click on them you can choose what books you want for this category.
     books = fields.Many2many("flutter.book")
