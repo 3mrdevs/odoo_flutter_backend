@@ -6,6 +6,7 @@ class Books (models.Model):
     _description = 'Model for storing books and do CRUD operations.'
 
     name = fields.Char()
+    active = fields.Boolean(default=True)
     number = fields.Integer()
     description = fields.Text()
     image = fields.Binary()
