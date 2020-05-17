@@ -9,5 +9,6 @@ class Books (models.Model):
     number = fields.Integer()
     description = fields.Text()
     image = fields.Binary()
+    publish_date = fields.Date()
 
 
