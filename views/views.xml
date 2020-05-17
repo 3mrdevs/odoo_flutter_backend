@@ -41,6 +41,8 @@
 
         <!-- Books menu -->
         <menuitem id="books_menu" string="Books" parent="root_menu" action="books_action"/>
+
+        <!-- Authors menu -->
         <menuitem id="authors_menu" string="Authors" parent="root_menu" action="authors_action"/>
         <menuitem id="publishers_menu" string="Publishers" parent="root_menu" action="publishers_action"/>
         <menuitem id="categories_menu" string="Categories" parent="root_menu" action="categories_action" />
