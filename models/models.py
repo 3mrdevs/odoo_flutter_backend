@@ -60,7 +60,10 @@ class Author (models.Model):
 
     # name of the author. Char is varchar or string with a small length.
     name = fields.Char()
+
+    # name of the book. Char is varchar or string with a small length.
     image = fields.Binary()
+
 
     books = fields.One2many("flutter.book","author")
 
