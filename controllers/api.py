@@ -21,6 +21,10 @@ class Api (http.Controller):
         ])
 
         if data:
+
+            for book in data:
+                book["publish_date"] = str(book["publish_date"])
+
             values['success'] = True
             values['data'] = data
         else:
