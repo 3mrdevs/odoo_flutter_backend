@@ -14,5 +14,7 @@ class Books (models.Model):
         ('ar','Arabic'),
         ('en','english')
     ],default='en')
+    isbn = fields.Char("International Standard Book Number")
+    price = fields.Float()
 
 
