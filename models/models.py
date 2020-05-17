@@ -2,9 +2,9 @@ from odoo import fields, models, api
 
 # This python module imports:
 
-# Odoo fields module to implement database columns with a pre-defined sql queries in the orm module
+# Odoo fields module to implement database columns with a pre-defined sql queries in the ORM module
+# Odoo models module to inherit the ORM methods that odoo uses and create the columns and the behavior
 # ORM is Object relational mapping which Odoo uses to connect with postgres through psycopg2 lib
-
 
 # Adding books model to store books data.
 class Books (models.Model):
