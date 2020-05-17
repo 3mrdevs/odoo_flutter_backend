@@ -9,6 +9,13 @@
             <field name="view_mode">tree,form</field>
         </record>
 
+        <record id="publishers_action" model="ir.actions.act_window">
+            <field name="name">Publishers</field>
+            <field name="res_model">flutter.publisher</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
         <menuitem id="root_menu" string="Book Store"/>
         <menuitem id="books_menu" string="Books" parent="root_menu" action="books_action"/>
         <menuitem id="publishers_menu" string="Publishers" parent="root_menu"/>
