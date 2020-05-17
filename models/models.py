@@ -75,6 +75,8 @@ class Books (models.Model):
 
 # Adding author model for book authors.
 class Author (models.Model):
+
+    # Holds the name of the table in database
     _name = 'flutter.author'
     _description = 'Model for storing authors of books and do CRUD operations.'
 
