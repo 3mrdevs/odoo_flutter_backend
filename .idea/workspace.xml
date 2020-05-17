@@ -82,34 +82,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00077" summary="author name translatable">
-      <created>1589692889813</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1589692889813</updated>
-    </task>
-    <task id="LOCAL-00078" summary="publisher name translatable">
-      <created>1589692952480</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1589692952480</updated>
-    </task>
-    <task id="LOCAL-00079" summary="category name translatable">
-      <created>1589692970774</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1589692970774</updated>
-    </task>
-    <task id="LOCAL-00080" summary="required attribute comment">
-      <created>1589693263920</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1589693263921</updated>
-    </task>
     <task id="LOCAL-00081" summary="readonly attribute comment">
       <created>1589693348430</created>
       <option name="number" value="00081" />
@@ -425,7 +397,35 @@
       <option name="project" value="LOCAL" />
       <updated>1589698155954</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Same as actions we make a record. Then add the inherit model which is ir.module.category to add a new category to Odoo.">
+      <created>1589698307108</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1589698307108</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Adding a unique id for the category.">
+      <created>1589698329694</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1589698329694</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Adding the name of the category.">
+      <created>1589698352845</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1589698352845</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Adding the sequence order of the category.">
+      <created>1589698382524</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1589698382524</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,10 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding the action we made to the books menu so when we click we can see the model data." />
-    <MESSAGE value="Adding publishers menu just like the books menu" />
-    <MESSAGE value="Adding publishers menu action" />
-    <MESSAGE value="Adding publishers menu action to the publishers menu." />
     <MESSAGE value="Adding authors menu" />
     <MESSAGE value="Adding authors menu action" />
     <MESSAGE value="Adding authors menu action to the authors menu." />
@@ -465,6 +461,10 @@
     <MESSAGE value="Changing the app name" />
     <MESSAGE value="Adding an icon to the app." />
     <MESSAGE value="Adding security xml file for controlling users access rights" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding security xml file for controlling users access rights" />
+    <MESSAGE value="Same as actions we make a record. Then add the inherit model which is ir.module.category to add a new category to Odoo." />
+    <MESSAGE value="Adding a unique id for the category." />
+    <MESSAGE value="Adding the name of the category." />
+    <MESSAGE value="Adding the sequence order of the category." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the sequence order of the category." />
   </component>
 </project>
