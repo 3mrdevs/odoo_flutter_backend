@@ -8,7 +8,10 @@ class Books (models.Model):
     # name of the book. Char is varchar or string with a small length.
     name = fields.Char()
 
+    # active is to determine if the book available or not. Boolean is true or false value.
     active = fields.Boolean(default=True)
+
+
     number = fields.Integer()
     description = fields.Text()
     image = fields.Binary()

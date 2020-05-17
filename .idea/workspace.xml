@@ -219,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589688195182</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Adding a filed (column) for the reverse relation of the categories with the books which stores the books ids which the admin selected for the book. Note: postgres stores then as ids but odoo display them as lists and when you click on them you can choose what books you want for this category.">
+      <created>1589688274385</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1589688274385</updated>
+    </task>
+    <task id="LOCAL-00022" summary="name comment">
+      <created>1589688385046</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1589688385046</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +268,8 @@
     <MESSAGE value="Adding a filed (column) for the status of the book which stores a string of the current state." />
     <MESSAGE value="Adding a filed (column) for the activeness of the book which stores true or false to determine if the book is still in stock for sale." />
     <MESSAGE value="Adding a filed (column) for the relation of the categories with the books which stores the categories ids which the admin selected. Note: postgres stores then as ids but odoo display them as lists and when you click on them you can choose what categories you want for this book." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a filed (column) for the relation of the categories with the books which stores the categories ids which the admin selected. Note: postgres stores then as ids but odoo display them as lists and when you click on them you can choose what categories you want for this book." />
+    <MESSAGE value="Adding a filed (column) for the reverse relation of the categories with the books which stores the books ids which the admin selected for the book. Note: postgres stores then as ids but odoo display them as lists and when you click on them you can choose what books you want for this category." />
+    <MESSAGE value="name comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="name comment" />
   </component>
 </project>
