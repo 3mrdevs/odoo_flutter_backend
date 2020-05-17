@@ -61,7 +61,7 @@ class Author (models.Model):
     # name of the author. Char is varchar or string with a small length.
     name = fields.Char()
 
-    # name of the book. Char is varchar or string with a small length.
+    # Adding a filed (column) for the image of the author which stores binary data for any file format.
     image = fields.Binary()
 
     # Adding a filed (column) for the reverse relation of the publisher with the book which stores all the books ids that the publisher had published. Note: postgres stores ids but odoo displays them as a list of books records in his views which is nice.
@@ -75,8 +75,9 @@ class Publisher (models.Model):
     # name of the publisher. Char is varchar or string with a small length.
     name = fields.Char()
 
-
+    # Adding a filed (column) for the image of the publisher which stores binary data for any file format.
     image = fields.Binary()
+
 
     publishers = fields.One2many("flutter.book", "publisher")
 
