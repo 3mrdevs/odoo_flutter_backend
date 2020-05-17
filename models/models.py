@@ -11,7 +11,8 @@ class Books (models.Model):
     # Adding a filed (column) for the name of the book. Char is varchar or string with a small length.
     name = fields.Char()
 
-    # Adding a filed (column) for the activeness of the book which stores true or false to determine if the book is still in stock for sale..
+    # Adding a filed (column) for the activeness of the book which stores true or false to determine
+    # if the book is still in stock for sale..
     active = fields.Boolean(default=True)
 
     # Adding a filed (column) for the number of the book. Integer is a field for numbers.
@@ -31,32 +32,36 @@ class Books (models.Model):
         ('published','Published'),
     ],default='draft')
 
-    # Adding a filed (column) for the publish date of the book which stores string containing a date format.
+    # Adding a filed (column) for the publish date of the book which stores string containing a
+    # date format.
     publish_date = fields.Date()
 
-    # Adding a filed (column) for the language of the book which stores string containing the key of the selected option.
+    # Adding a filed (column) for the language of the book which stores string containing the key
+    # of the selected option.
     language = fields.Selection([
         ('ar','Arabic'),
         ('en','english')
     ],default='en')
 
-    # Adding a filed (column) for the isbn of the book. Char is varchar or string with a small length.
-    # You can use char to store numbers sometime which is more advanced.
+    # Adding a filed (column) for the isbn of the book. Char is varchar or string with a
+    # small length. You can use char to store numbers sometime which is more advanced.
     isbn = fields.Char("International Standard Book Number")
 
     # Adding a filed (column) for the price cost of the book which stores real number.
     price = fields.Float()
 
-    # Adding a filed (column) for the relation of the author with the book which stores the author id who wrote the book.
+    # Adding a filed (column) for the relation of the author with the book which stores
+    # the author id who wrote the book.
     author = fields.Many2one("flutter.author")
 
-    # Adding a filed (column) for the relation of the publisher with the book which stores the publisher id
-    # who published the book of the author.
+    # Adding a filed (column) for the relation of the publisher with the book which stores
+    # the publisher id who published the book of the author.
     publisher = fields.Many2one("flutter.publisher")
 
-    # Adding a filed (column) for the relation of the categories with the books which stores the categories ids
-    # which the admin selected. Note: postgres stores then as ids but odoo display them as lists and when you
-    # click on them you can choose what categories you want for this book.
+    # Adding a filed (column) for the relation of the categories with the books which stores
+    # the categories ids which the admin selected. Note: postgres stores then as ids but odoo
+    # display them as lists and when you click on them you can choose what categories you want
+    # for this book.
     categories = fields.Many2many("flutter.category")
 
 # Adding author model for book authors.
@@ -67,15 +72,17 @@ class Author (models.Model):
     # Sorts the authors descending order with the time of registration.
     _order = "create_date desc"
 
-    # Adding a filed (column) for the name of the author. Char is varchar or string with a small length.
+    # Adding a filed (column) for the name of the author. Char is varchar or string with a
+    # small length.
     name = fields.Char()
 
-    # Adding a filed (column) for the image of the author which stores binary data for any file format.
+    # Adding a filed (column) for the image of the author which stores binary data for any
+    # file format.
     image = fields.Binary()
 
-    # Adding a filed (column) for the reverse relation of the publisher with the book which stores all the books
-    # ids that the publisher had published. Note: postgres stores ids but odoo displays them as a list of books
-    # records in his views which is nice.
+    # Adding a filed (column) for the reverse relation of the publisher with the book which
+    # stores all the books ids that the publisher had published. Note: postgres stores ids
+    # but odoo displays them as a list of books records in his views which is nice.
     books = fields.One2many("flutter.book","author")
 
 # Adding a publisher model to store publishers info
@@ -86,15 +93,17 @@ class Publisher (models.Model):
     # Sorts the publishers descending order with the time of registration.
     _order = "create_date desc"
 
-    # Adding a filed (column) for the name of the publisher. Char is varchar or string with a small length.
+    # Adding a filed (column) for the name of the publisher. Char is varchar or string with
+    # a small length.
     name = fields.Char()
 
-    # Adding a filed (column) for the image of the publisher which stores binary data for any file format.
+    # Adding a filed (column) for the image of the publisher which stores binary data for any
+    # file format.
     image = fields.Binary()
 
-    # Adding a filed (column) for the reverse relation of the publisher with the book which stores all the books
-    # ids that the publisher had published. Note: postgres stores ids but odoo displays them as a list of books
-    # records in his views which is nice.
+    # Adding a filed (column) for the reverse relation of the publisher with the book which
+    # stores all the books ids that the publisher had published. Note: postgres stores ids but
+    # odoo displays them as a list of books records in his views which is nice.
     books = fields.One2many("flutter.book", "publisher")
 
 # Adding a category model to store multiple categories of the published books.
@@ -105,10 +114,12 @@ class Category (models.Model):
     # Sorts the categories descending order with the time of creation.
     _order = "create_date desc"
 
-    # Adding a filed (column) for the name of the publisher. Char is varchar or string with a small length.
+    # Adding a filed (column) for the name of the publisher. Char is varchar or string with
+    # a small length.
     name = fields.Char()
 
-    # Adding a filed (column) for the reverse relation of the categories with the books which stores the
-    # books ids which the admin selected for the book. Note: postgres stores then as ids but odoo display
-    # them as lists and when you click on them you can choose what books you want for this category.
+    # Adding a filed (column) for the reverse relation of the categories with the books which
+    # stores the books ids which the admin selected for the book. Note: postgres stores then
+    # as ids but odoo display them as lists and when you click on them you can choose what
+    # books you want for this category.
     books = fields.Many2many("flutter.book")
