@@ -12,6 +12,8 @@ class Books (models.Model):
 
     # Holds the name of the table in database
     _name = 'flutter.book'
+
+    # Holds the description of the table in database
     _description = 'Model for storing books and do CRUD operations.'
 
     # Sorts the categories descending order with the time of creation.

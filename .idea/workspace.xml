@@ -79,41 +79,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00009" summary="Adding a filed (column) for the price cost of the book which stores real number.">
-      <created>1589684153471</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1589684153471</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Adding author model for book authors.">
-      <created>1589684305089</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1589684305089</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Adding a filed (column) for the image of the author which stores binary of any file format.">
-      <created>1589684560982</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1589684560982</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Adding a filed (column) for the relation of the author with the book which stores the author id who wrote the book.">
-      <created>1589684670104</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1589684670104</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Adding a filed (column) for the reverse relation of the author with the book which stores all the books ids that the author had wrote. Note: postgres stores ids but odoo displays them as a list of books records in his views which is nice.">
-      <created>1589684973335</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1589684973335</updated>
-    </task>
     <task id="LOCAL-00014" summary="Adding a publisher model to store publishers info">
       <created>1589686237758</created>
       <option name="number" value="00014" />
@@ -422,7 +387,42 @@
       <option name="project" value="LOCAL" />
       <updated>1589691516750</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="odoo api comment">
+      <created>1589691751519</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1589691751519</updated>
+    </task>
+    <task id="LOCAL-00059" summary="books _name comment">
+      <created>1589691819821</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1589691819821</updated>
+    </task>
+    <task id="LOCAL-00060" summary="author _name comment">
+      <created>1589691840655</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1589691840655</updated>
+    </task>
+    <task id="LOCAL-00061" summary="publisher _name comment">
+      <created>1589691858974</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1589691858974</updated>
+    </task>
+    <task id="LOCAL-00062" summary="categories _name comment">
+      <created>1589691881671</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1589691881671</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,11 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="publisher comment" />
-    <MESSAGE value="categories comment" />
-    <MESSAGE value="author class comment" />
-    <MESSAGE value="author name comment" />
-    <MESSAGE value="author image comment" />
     <MESSAGE value="author books comment" />
     <MESSAGE value="publisher model comment" />
     <MESSAGE value="publisher name comment" />
@@ -462,6 +457,11 @@
     <MESSAGE value="books class comment" />
     <MESSAGE value="odoo fields comment" />
     <MESSAGE value="odoo models comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="odoo models comment" />
+    <MESSAGE value="odoo api comment" />
+    <MESSAGE value="books _name comment" />
+    <MESSAGE value="author _name comment" />
+    <MESSAGE value="publisher _name comment" />
+    <MESSAGE value="categories _name comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="categories _name comment" />
   </component>
 </project>
