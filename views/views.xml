@@ -3,6 +3,7 @@
     <data>
 
         <menuitem id="root_menu" string="Book Store"/>
+        <menuitem id="books_menu" string="Books"/>
 
     </data>
 </odoo>
