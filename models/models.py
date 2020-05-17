@@ -14,8 +14,10 @@ class Books (models.Model):
     # Adding a filed (column) for the number of the book. Integer is a field for numbers.
     number = fields.Integer()
 
-
+    # Adding a filed (column) for the description of the book which has more string length than char.
     description = fields.Text()
+
+
     image = fields.Binary()
 
     state = fields.Selection([
