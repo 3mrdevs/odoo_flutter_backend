@@ -78,8 +78,8 @@ class Publisher (models.Model):
     # Adding a filed (column) for the image of the publisher which stores binary data for any file format.
     image = fields.Binary()
 
-
-    publishers = fields.One2many("flutter.book", "publisher")
+    # Adding a filed (column) for the reverse relation of the publisher with the book which stores all the books ids that the publisher had published. Note: postgres stores ids but odoo displays them as a list of books records in his views which is nice.
+    books = fields.One2many("flutter.book", "publisher")
 
 class Category (models.Model):
     _name = 'flutter.category'
