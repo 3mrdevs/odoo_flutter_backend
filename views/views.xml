@@ -2,7 +2,7 @@
 <odoo>
     <data>
 
-        <menuitem id="root_menu" />
+        <menuitem id="root_menu" string="Book Store"/>
 
     </data>
 </odoo>

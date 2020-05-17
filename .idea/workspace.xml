@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/views.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/views.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,27 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00035" summary="author class comment">
-      <created>1589689226226</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1589689226226</updated>
-    </task>
-    <task id="LOCAL-00036" summary="author name comment">
-      <created>1589689270995</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1589689270995</updated>
-    </task>
-    <task id="LOCAL-00037" summary="author image comment">
-      <created>1589689614466</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1589689614466</updated>
     </task>
     <task id="LOCAL-00038" summary="author books comment">
       <created>1589689673494</created>
@@ -424,7 +403,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589693488426</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Adding views file to Odoo manifest so odoo can see this view. Odoo can't see any view file if its not defined in the manifest">
+      <created>1589693570588</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1589693570589</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Adding a menu item in the Odoo view so we can see our Odoo books library module">
+      <created>1589693669877</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1589693669877</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Defining a unique id for the parent menu.">
+      <created>1589693735697</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1589693735697</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,9 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="odoo api comment" />
-    <MESSAGE value="books _name comment" />
-    <MESSAGE value="author _name comment" />
     <MESSAGE value="publisher _name comment" />
     <MESSAGE value="categories _name comment" />
     <MESSAGE value="books _description comment" />
@@ -464,6 +461,9 @@
     <MESSAGE value="readonly attribute comment" />
     <MESSAGE value="translate attribute comment" />
     <MESSAGE value="adding views file to Odoo view folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding views file to Odoo view folder" />
+    <MESSAGE value="Adding views file to Odoo manifest so odoo can see this view. Odoo can't see any view file if its not defined in the manifest" />
+    <MESSAGE value="Adding a menu item in the Odoo view so we can see our Odoo books library module" />
+    <MESSAGE value="Defining a unique id for the parent menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Defining a unique id for the parent menu." />
   </component>
 </project>
