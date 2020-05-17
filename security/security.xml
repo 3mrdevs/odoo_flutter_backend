@@ -37,5 +37,8 @@
             <field name="users" eval="[(4, ref('base.user_root'))]"/>
         </record>
 
+        <!-- The access rights file is called ir.model.access.csv it can be found in the same security folder -->
+        <!-- Which contain the create,write,read,unlink rights to use with the groups that we have just added -->
+
     </data>
 </odoo>

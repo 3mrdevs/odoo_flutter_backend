@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/security/ir.model.access.csv" beforeDir="false" afterPath="$PROJECT_DIR$/security/ir.model.access.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/security.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,41 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00103" summary="Adding authors menu">
-      <created>1589696033134</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696033134</updated>
-    </task>
-    <task id="LOCAL-00104" summary="Adding authors menu action">
-      <created>1589696132331</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696132331</updated>
-    </task>
-    <task id="LOCAL-00105" summary="Adding authors menu action to the authors menu.">
-      <created>1589696159984</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696159984</updated>
-    </task>
-    <task id="LOCAL-00106" summary="Adding categories menu.">
-      <created>1589696269828</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696269828</updated>
-    </task>
-    <task id="LOCAL-00107" summary="Adding categories menu action.">
-      <created>1589696302153</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696302153</updated>
     </task>
     <task id="LOCAL-00108" summary="Adding categories menu action to the categories menu.">
       <created>1589696340541</created>
@@ -427,7 +392,42 @@
       <option name="project" value="LOCAL" />
       <updated>1589704626865</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="Adding book model access right in the manager group">
+      <created>1589704685709</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1589704685709</updated>
+    </task>
+    <task id="LOCAL-00153" summary="Adding publisher model access right in the manager group">
+      <created>1589704715063</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1589704715063</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Adding author model access right in the manager group">
+      <created>1589704743562</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1589704743562</updated>
+    </task>
+    <task id="LOCAL-00155" summary="Adding category model access right in the manager group">
+      <created>1589704771580</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1589704771580</updated>
+    </task>
+    <task id="LOCAL-00156" summary="Clean csv">
+      <created>1589704887553</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1589704887553</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,11 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding a unique id for the category." />
-    <MESSAGE value="Adding the name of the category." />
-    <MESSAGE value="Adding the sequence order of the category." />
-    <MESSAGE value="Adding a group for the users by inheriting from res.groups model." />
-    <MESSAGE value="Adding a unique id for our book employees access rights group." />
     <MESSAGE value="Naming the employee group." />
     <MESSAGE value="Adding the group to the app category using an external id for uniqueness with is the app folder name so Odoo don't get confused." />
     <MESSAGE value="Adding another group for the book store managers access rights." />
@@ -467,6 +462,11 @@
     <MESSAGE value="Adding publisher model access right in the employee group" />
     <MESSAGE value="Adding author model access right in the employee group" />
     <MESSAGE value="Adding category model access right in the employee group" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding category model access right in the employee group" />
+    <MESSAGE value="Adding book model access right in the manager group" />
+    <MESSAGE value="Adding publisher model access right in the manager group" />
+    <MESSAGE value="Adding author model access right in the manager group" />
+    <MESSAGE value="Adding category model access right in the manager group" />
+    <MESSAGE value="Clean csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean csv" />
   </component>
 </project>
