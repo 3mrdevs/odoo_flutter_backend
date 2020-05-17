@@ -12,6 +12,7 @@ class Api (http.Controller):
 
         data = request.env['flutter.book'].sudo().search_read([],fields=[
             "name",
+            "description",
         ])
 
         if data:
