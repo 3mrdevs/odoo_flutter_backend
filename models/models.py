@@ -81,6 +81,8 @@ class Publisher (models.Model):
     _name = 'flutter.publisher'
     _description = 'Model for storing publishers of books and do CRUD operations.'
 
+    _order = "create_date desc"
+
     # Adding a filed (column) for the name of the publisher. Char is varchar or string with a small length.
     name = fields.Char()
 
