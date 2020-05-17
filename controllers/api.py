@@ -16,6 +16,7 @@ class Api (http.Controller):
             "state",
             "publish_date",
             "language",
+            "isbn",
         ])
 
         if data:
