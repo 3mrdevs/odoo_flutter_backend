@@ -53,6 +53,7 @@ class Books (models.Model):
     # Adding a filed (column) for the relation of the categories with the books which stores the categories ids which the admin selected. Note: postgres stores then as ids but odoo display them as lists and when you click on them you can choose what categories you want for this book.
     categories = fields.Many2many("flutter.category")
 
+# Adding author model for book authors.
 class Author (models.Model):
     _name = 'flutter.author'
     _description = 'Model for storing authors of books and do CRUD operations.'
