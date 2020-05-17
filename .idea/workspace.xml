@@ -79,13 +79,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00073" summary="Setting the category name as required">
-      <created>1589692341652</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1589692341652</updated>
-    </task>
     <task id="LOCAL-00074" summary="Setting the category name as required">
       <created>1589692362452</created>
       <option name="number" value="00074" />
@@ -422,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589697113587</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Changing the app name">
+      <created>1589697234721</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1589697234721</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding the model name which we will be opening in the view." />
     <MESSAGE value="Adding the model view type of the model which is the form view. Odoo has more than on view." />
     <MESSAGE value="Adding the more views to the model like the list view." />
     <MESSAGE value="Adding the action we made to the books menu so when we click we can see the model data." />
@@ -462,6 +461,7 @@
     <MESSAGE value="Adding categories menu comment" />
     <MESSAGE value="Making this module shows in the apps menu of Odoo." />
     <MESSAGE value="Making this module shows on top of all apps with the sequence key in manifest." />
-    <option name="LAST_COMMIT_MESSAGE" value="Making this module shows on top of all apps with the sequence key in manifest." />
+    <MESSAGE value="Changing the app name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing the app name" />
   </component>
 </project>
