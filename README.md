@@ -13,11 +13,18 @@
 This <a href="https://github.com/3mrdevs/odoo_flutter_backend">Odoo Flutter Backend</a> is a simple example of a book store back-end with <a href="https://www.odoo.com">Odoo</a> for a <a href="https://www.flutter.dev">flutter</a> app with an API controller.
 </p>
 
-<h3> Books (CRUD) </h3>
+<h3> Books create example </h3>
 
 ![Books](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/books_create.PNG?raw=true)
+
+<h3> Books actions example </h3>
+
 ![Books](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/books_actions.PNG?raw=true)
+
+<h3> Books search example </h3>
+
 ![Books](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/books_search.PNG?raw=true)
+
 <h3> Authors (CRUD) </h3>
 
 ![Authors](https://github.com/3mrdevs/odoo_flutter_backend/blob/master/static/description/authors.PNG?raw=true)
