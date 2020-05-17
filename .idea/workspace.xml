@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/security.xml" afterDir="false" />
-    </list>
+    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,34 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00092" summary="Inherit the actions model so we can add a new action in the model.">
-      <created>1589695452315</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1589695452315</updated>
-    </task>
-    <task id="LOCAL-00093" summary="Open the record tag to add the fields data">
-      <created>1589695483586</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1589695483586</updated>
-    </task>
-    <task id="LOCAL-00094" summary="Defining the field which we will add the content with.">
-      <created>1589695530242</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1589695530242</updated>
-    </task>
-    <task id="LOCAL-00095" summary="Adding the name of the books action.">
-      <created>1589695575653</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1589695575653</updated>
     </task>
     <task id="LOCAL-00096" summary="Adding the model name which we will be opening in the view.">
       <created>1589695653009</created>
@@ -426,7 +395,35 @@
       <option name="project" value="LOCAL" />
       <updated>1589700362280</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="Adding security xml file comment">
+      <created>1589703603596</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1589703603596</updated>
+    </task>
+    <task id="LOCAL-00142" summary="Adding security category comment">
+      <created>1589703631484</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1589703631484</updated>
+    </task>
+    <task id="LOCAL-00143" summary="Adding security groups comment">
+      <created>1589703651380</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1589703651380</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Adding security category to the employee group comment">
+      <created>1589703700112</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1589703700112</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,10 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding root menu comment" />
-    <MESSAGE value="Adding books menu comment" />
-    <MESSAGE value="Adding authors menu comment" />
-    <MESSAGE value="Adding publishers menu comment" />
     <MESSAGE value="Adding categories menu comment" />
     <MESSAGE value="Making this module shows in the apps menu of Odoo." />
     <MESSAGE value="Making this module shows on top of all apps with the sequence key in manifest." />
@@ -466,6 +459,10 @@
     <MESSAGE value="Adding app category comment" />
     <MESSAGE value="Adding employee group comment" />
     <MESSAGE value="Adding manager group comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding manager group comment" />
+    <MESSAGE value="Adding security xml file comment" />
+    <MESSAGE value="Adding security category comment" />
+    <MESSAGE value="Adding security groups comment" />
+    <MESSAGE value="Adding security category to the employee group comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding security category to the employee group comment" />
   </component>
 </project>
