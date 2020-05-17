@@ -15,5 +15,9 @@ class Api (http.Controller):
         if data:
             values['success'] = True
             values['data'] = data
+        else:
+            values['success'] = False
+            values['error_code'] = 1
+            values['error_data'] = 'No data found!'
 
         return json.dumps(values)
