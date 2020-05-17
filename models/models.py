@@ -47,10 +47,13 @@ class Books (models.Model):
     # Adding a filed (column) for the relation of the author with the book which stores the author id who wrote the book.
     author = fields.Many2one("flutter.author")
 
-    # Adding a filed (column) for the relation of the publisher with the book which stores the publisher id who published the book of the author.
+    # Adding a filed (column) for the relation of the publisher with the book which stores the publisher id
+    # who published the book of the author.
     publisher = fields.Many2one("flutter.publisher")
 
-    # Adding a filed (column) for the relation of the categories with the books which stores the categories ids which the admin selected. Note: postgres stores then as ids but odoo display them as lists and when you click on them you can choose what categories you want for this book.
+    # Adding a filed (column) for the relation of the categories with the books which stores the categories ids
+    # which the admin selected. Note: postgres stores then as ids but odoo display them as lists and when you
+    # click on them you can choose what categories you want for this book.
     categories = fields.Many2many("flutter.category")
 
 # Adding author model for book authors.
@@ -64,7 +67,9 @@ class Author (models.Model):
     # Adding a filed (column) for the image of the author which stores binary data for any file format.
     image = fields.Binary()
 
-    # Adding a filed (column) for the reverse relation of the publisher with the book which stores all the books ids that the publisher had published. Note: postgres stores ids but odoo displays them as a list of books records in his views which is nice.
+    # Adding a filed (column) for the reverse relation of the publisher with the book which stores all the books
+    # ids that the publisher had published. Note: postgres stores ids but odoo displays them as a list of books
+    # records in his views which is nice.
     books = fields.One2many("flutter.book","author")
 
 # Adding a publisher model to store publishers info
@@ -78,12 +83,16 @@ class Publisher (models.Model):
     # Adding a filed (column) for the image of the publisher which stores binary data for any file format.
     image = fields.Binary()
 
-    # Adding a filed (column) for the reverse relation of the publisher with the book which stores all the books ids that the publisher had published. Note: postgres stores ids but odoo displays them as a list of books records in his views which is nice.
+    # Adding a filed (column) for the reverse relation of the publisher with the book which stores all the books
+    # ids that the publisher had published. Note: postgres stores ids but odoo displays them as a list of books
+    # records in his views which is nice.
     books = fields.One2many("flutter.book", "publisher")
 
+# Adding a category model to store multiple categories of the published books.
 class Category (models.Model):
     _name = 'flutter.category'
     _description = 'Model for storing categories of the books and do CRUD operations.'
+
 
     name = fields.Char()
     books = fields.Many2many("flutter.book")
