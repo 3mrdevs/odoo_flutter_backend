@@ -47,6 +47,8 @@
 
         <!-- Publishers menu -->
         <menuitem id="publishers_menu" string="Publishers" parent="root_menu" action="publishers_action"/>
+
+        <!-- Categories menu -->
         <menuitem id="categories_menu" string="Categories" parent="root_menu" action="categories_action" />
 
     </data>
