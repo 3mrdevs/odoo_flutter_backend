@@ -10,6 +10,7 @@ from odoo import fields, models, api
 
 # Odoo fields attributes:
 # required : Setting the field as required for input raises an error if its not filled.
+# readonly : Setting the field as readonly which only displays thr field content.
 
 # Adding books model to store books data.
 class Books (models.Model):
