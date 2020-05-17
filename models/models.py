@@ -30,7 +30,7 @@ class Books (models.Model):
     number = fields.Integer()
 
     # Adding a filed (column) for the description of the book which has more string length than char.
-    description = fields.Text()
+    description = fields.Text(required=True)
 
     # Adding a filed (column) for the image of the book which stores binary data for any file format.
     image = fields.Binary()
