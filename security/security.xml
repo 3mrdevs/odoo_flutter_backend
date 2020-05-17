@@ -5,5 +5,8 @@
             <field name="name">Book Store</field>
             <field name="sequence">1</field>
         </record>
+
+        <record model="res.groups"></record>
+
     </data>
 </odoo>
