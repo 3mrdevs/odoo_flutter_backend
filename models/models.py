@@ -139,7 +139,7 @@ class Category (models.Model):
 
     # Adding a filed (column) for the name of the publisher. Char is varchar or string with
     # a small length.
-    name = fields.Char(required=True)
+    name = fields.Char(required=True,translate=True)
 
     # Adding a filed (column) for the reverse relation of the categories with the books which
     # stores the books ids which the admin selected for the book. Note: postgres stores then
