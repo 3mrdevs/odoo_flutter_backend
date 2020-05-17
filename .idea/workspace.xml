@@ -79,20 +79,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00007" summary="Adding a filed (column) for the publish date of the book which stores string containing a date format.">
-      <created>1589683632954</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1589683632954</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Adding a filed (column) for the language of the book which stores string containing the key of the selected option.">
-      <created>1589683934753</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1589683934753</updated>
-    </task>
     <task id="LOCAL-00009" summary="Adding a filed (column) for the price cost of the book which stores real number.">
       <created>1589684153471</created>
       <option name="number" value="00009" />
@@ -422,7 +408,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589691027018</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="odoo fields comment">
+      <created>1589691379204</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1589691379204</updated>
+    </task>
+    <task id="LOCAL-00057" summary="odoo models comment">
+      <created>1589691516750</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1589691516750</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,8 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="price comment" />
-    <MESSAGE value="author comment" />
     <MESSAGE value="publisher comment" />
     <MESSAGE value="categories comment" />
     <MESSAGE value="author class comment" />
@@ -462,6 +460,8 @@
     <MESSAGE value="categories order comment" />
     <MESSAGE value="clean comments" />
     <MESSAGE value="books class comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="books class comment" />
+    <MESSAGE value="odoo fields comment" />
+    <MESSAGE value="odoo models comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="odoo models comment" />
   </component>
 </project>
