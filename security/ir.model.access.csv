@@ -5,3 +5,4 @@ id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 4e,categories employee,model_flutter_category,flutter.group_flutter_employee,1,1,1,0
 
 1m,books manager,model_flutter_book,flutter.group_flutter_manager,1,1,1,1
+2m,publisher manager,model_flutter_publisher,flutter.group_flutter_manager,1,1,1,1
