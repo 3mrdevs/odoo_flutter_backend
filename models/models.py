@@ -59,7 +59,7 @@ class Books (models.Model):
     isbn = fields.Char("International Standard Book Number")
 
     # Adding a filed (column) for the price cost of the book which stores real number.
-    price = fields.Float()
+    price = fields.Float(required=True)
 
     # Adding a filed (column) for the relation of the author with the book which stores
     # the author id who wrote the book.
