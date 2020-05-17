@@ -22,4 +22,5 @@ class Author (models.Model):
     _description = 'Model for storing authors of books and do CRUD operations.'
 
     name = fields.Char()
+    image = fields.Binary()
 
