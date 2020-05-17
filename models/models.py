@@ -30,6 +30,7 @@ class Books (models.Model):
 
     author = fields.Many2one("flutter.author")
     publisher = fields.Many2one("flutter.publisher")
+    categories = fields.Many2many("flutter.category")
 
 class Author (models.Model):
     _name = 'flutter.author'
