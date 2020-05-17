@@ -35,3 +35,5 @@ class Publisher (models.Model):
 
     name = fields.Char()
     image = fields.Binary()
+
+    publishers = fields.One2many("flutter.book", "publisher")
