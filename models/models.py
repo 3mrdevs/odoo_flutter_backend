@@ -121,6 +121,8 @@ class Publisher (models.Model):
 
 # Adding a category model to store multiple categories of the published books.
 class Category (models.Model):
+
+    # Holds the name of the table in database
     _name = 'flutter.category'
     _description = 'Model for storing categories of the books and do CRUD operations.'
 
