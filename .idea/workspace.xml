@@ -261,7 +261,35 @@
       <option name="project" value="LOCAL" />
       <updated>1589688713833</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="state comment">
+      <created>1589688749043</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1589688749043</updated>
+    </task>
+    <task id="LOCAL-00028" summary="publish_date comment">
+      <created>1589688780568</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1589688780568</updated>
+    </task>
+    <task id="LOCAL-00029" summary="language comment">
+      <created>1589688839439</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1589688839439</updated>
+    </task>
+    <task id="LOCAL-00030" summary="isbn comment">
+      <created>1589688980883</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1589688980883</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,10 +304,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add sub directory python initial point for class models" />
-    <MESSAGE value="Writing Odoo model for storing books and doing CRUD operations." />
-    <MESSAGE value="Adding a filed (column) for the number of the book." />
-    <MESSAGE value="Adding a filed (column) for the description of the book which has more string length than char." />
     <MESSAGE value="Adding a filed (column) for the image of the book which stores binary data for any file format." />
     <MESSAGE value="Adding a filed (column) for the publish date of the book which stores string containing a date format." />
     <MESSAGE value="Adding a filed (column) for the language of the book which stores string containing the key of the selected option." />
@@ -301,6 +325,10 @@
     <MESSAGE value="number comment" />
     <MESSAGE value="description comment" />
     <MESSAGE value="image comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="image comment" />
+    <MESSAGE value="state comment" />
+    <MESSAGE value="publish_date comment" />
+    <MESSAGE value="language comment" />
+    <MESSAGE value="isbn comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="isbn comment" />
   </component>
 </project>

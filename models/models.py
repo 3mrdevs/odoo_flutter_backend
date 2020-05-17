@@ -41,8 +41,9 @@ class Books (models.Model):
     # is more advanced.
     isbn = fields.Char("International Standard Book Number")
 
-
+    # Adding a filed (column) for the price cost of the book which stores real number.
     price = fields.Float()
+
 
     author = fields.Many2one("flutter.author")
     publisher = fields.Many2one("flutter.publisher")
