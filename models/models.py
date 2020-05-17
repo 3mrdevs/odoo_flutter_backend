@@ -28,6 +28,7 @@ class Books (models.Model):
         ('published','Published'),
     ],default='draft')
 
+    # Adding a filed (column) for the publish date of the book which stores string containing a date format.
     publish_date = fields.Date()
 
     language = fields.Selection([
