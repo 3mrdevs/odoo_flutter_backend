@@ -27,7 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultOdooModelFileTemplate" value="OdooModel" />
-    <property name="DefaultOdooViewFileTemplate" value="OdooViewEmpty" />
+    <property name="DefaultOdooViewFileTemplate" value="OdooViewSecurity" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Odoo 12.0/server/odoo-bin" />
@@ -78,20 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Setting the category name as required">
-      <created>1589692362452</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1589692362452</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Setting the book states as readonly">
-      <created>1589692416247</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1589692416247</updated>
     </task>
     <task id="LOCAL-00076" summary="Adding the ability to translate this field content to other languages. (Amazing Feature)">
       <created>1589692809537</created>
@@ -422,7 +408,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589697234721</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Adding an icon to the app.">
+      <created>1589697527571</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1589697527571</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Adding an icon to the app.">
+      <created>1589697605980</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1589697605980</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding the model view type of the model which is the form view. Odoo has more than on view." />
     <MESSAGE value="Adding the more views to the model like the list view." />
     <MESSAGE value="Adding the action we made to the books menu so when we click we can see the model data." />
     <MESSAGE value="Adding publishers menu just like the books menu" />
@@ -462,6 +461,7 @@
     <MESSAGE value="Making this module shows in the apps menu of Odoo." />
     <MESSAGE value="Making this module shows on top of all apps with the sequence key in manifest." />
     <MESSAGE value="Changing the app name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing the app name" />
+    <MESSAGE value="Adding an icon to the app." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding an icon to the app." />
   </component>
 </project>
