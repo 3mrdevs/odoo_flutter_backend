@@ -1,5 +1,6 @@
 {
     'name': 'Odoo flutter back-end',
+    'sequence': -1,
     'version': '13.0.1',
     'summary': 'Odoo flutter back-end example',
     'description': 'Simple example of Odoo back-end for a flutter application with API controller',
