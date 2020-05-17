@@ -11,6 +11,8 @@
             <field name="sequence">1</field>
         </record>
 
+        <!-- We are adding a group for the users by inheriting from res.groups model so we can use it to give access rights -->
+
         <!-- Employee access rights group -->
         <record id="group_book_employee" model="res.groups">
             <field name="name">Employee</field>
