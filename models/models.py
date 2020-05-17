@@ -37,8 +37,11 @@ class Books (models.Model):
         ('en','english')
     ],default='en')
 
-
+    # name of the book. Char is varchar or string with a small length. you can use char to store numbers sometime which
+    # is more advanced.
     isbn = fields.Char("International Standard Book Number")
+
+
     price = fields.Float()
 
     author = fields.Many2one("flutter.author")
