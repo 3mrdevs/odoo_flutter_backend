@@ -79,27 +79,6 @@
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
     </task>
-    <task id="LOCAL-00028" summary="publish_date comment">
-      <created>1589688780568</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1589688780568</updated>
-    </task>
-    <task id="LOCAL-00029" summary="language comment">
-      <created>1589688839439</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1589688839439</updated>
-    </task>
-    <task id="LOCAL-00030" summary="isbn comment">
-      <created>1589688980883</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1589688980883</updated>
-    </task>
     <task id="LOCAL-00031" summary="price comment">
       <created>1589689008223</created>
       <option name="number" value="00031" />
@@ -422,7 +401,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589692809537</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="author name translatable">
+      <created>1589692889813</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1589692889813</updated>
+    </task>
+    <task id="LOCAL-00078" summary="publisher name translatable">
+      <created>1589692952480</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1589692952480</updated>
+    </task>
+    <task id="LOCAL-00079" summary="category name translatable">
+      <created>1589692970774</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1589692970774</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,9 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="authors order comment" />
-    <MESSAGE value="publishers order comment" />
-    <MESSAGE value="categories order comment" />
     <MESSAGE value="clean comments" />
     <MESSAGE value="books class comment" />
     <MESSAGE value="odoo fields comment" />
@@ -462,6 +459,9 @@
     <MESSAGE value="Setting the category name as required" />
     <MESSAGE value="Setting the book states as readonly" />
     <MESSAGE value="Adding the ability to translate this field content to other languages. (Amazing Feature)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the ability to translate this field content to other languages. (Amazing Feature)" />
+    <MESSAGE value="author name translatable" />
+    <MESSAGE value="publisher name translatable" />
+    <MESSAGE value="category name translatable" />
+    <option name="LAST_COMMIT_MESSAGE" value="category name translatable" />
   </component>
 </project>

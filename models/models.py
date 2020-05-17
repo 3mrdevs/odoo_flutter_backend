@@ -7,6 +7,10 @@ from odoo import fields, models, api
 # Odoo models module to inherit the ORM methods that Odoo uses and create the columns and the behavior
 # Odoo api module to access the api annotations of the Odoo ORM methods which each one of them has a purpose,
 
+
+# Odoo fields attributes:
+# required : Setting the field as required for input raises an error if its not filled.
+
 # Adding books model to store books data.
 class Books (models.Model):
 
