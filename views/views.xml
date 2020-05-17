@@ -5,6 +5,7 @@
         <!-- Menu items are a type of view that Odoo uses to display drop-down menus on its main bar. -->
 
         <!-- Books menu action -->
+        <!-- Books menu action -->
         <record id="books_action" model="ir.actions.act_window">
             <field name="name">Books</field>
             <field name="res_model">flutter.book</field>

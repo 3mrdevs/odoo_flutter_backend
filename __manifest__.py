@@ -10,5 +10,6 @@
     'data': ['views/view.xml'],
     # 'demo': ['data/demo.xml'],
     'installable': True,
+    'application': True,
     'auto_install': False
 }
