@@ -130,6 +130,8 @@ class Category (models.Model):
 
     # Holds the name of the table in database
     _name = 'flutter.category'
+
+    # Holds the description of the table in database
     _description = 'Model for storing categories of the books and do CRUD operations.'
 
     # Sorts the categories descending order with the time of creation.
