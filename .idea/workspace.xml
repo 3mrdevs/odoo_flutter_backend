@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +93,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589683040912</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Writing Odoo model for storing books and doing CRUD operations.">
+      <created>1589683277215</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589683277215</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding a filed (column) for the number of the book.">
+      <created>1589683408630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589683408630</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding a filed (column) for the description of the book which has more string length than char.">
+      <created>1589683483308</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589683483308</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +131,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add python initial point" />
     <MESSAGE value="add sub directory python initial point for class models" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sub directory python initial point for class models" />
+    <MESSAGE value="Writing Odoo model for storing books and doing CRUD operations." />
+    <MESSAGE value="Adding a filed (column) for the number of the book." />
+    <MESSAGE value="Adding a filed (column) for the description of the book which has more string length than char." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a filed (column) for the description of the book which has more string length than char." />
   </component>
 </project>
