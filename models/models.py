@@ -11,8 +11,10 @@ class Books (models.Model):
     # active is to determine if the book available or not. Boolean is true or false value.
     active = fields.Boolean(default=True)
 
-
+    # Adding a filed (column) for the number of the book. Integer is a field for numbers.
     number = fields.Integer()
+
+
     description = fields.Text()
     image = fields.Binary()
 
