@@ -18,6 +18,7 @@ class Books (models.Model):
     price = fields.Float()
 
     author = fields.Many2one("flutter.author")
+    publisher = fields.Many2one("flutter.publisher")
 
 class Author (models.Model):
     _name = 'flutter.author'
@@ -33,3 +34,4 @@ class Publisher (models.Model):
     _description = 'Model for storing publishers of books and do CRUD operations.'
 
     name = fields.Char()
+    image = fields.Binary()
