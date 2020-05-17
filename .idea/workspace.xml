@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="" />
+    <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/security/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/security.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,7 @@
         <option value="OdooInit" />
         <option value="OdooModel" />
         <option value="OdooViewEmpty" />
+        <option value="OdooViewSecurity" />
       </list>
     </option>
   </component>
@@ -78,13 +81,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Adding the ability to translate this field content to other languages. (Amazing Feature)">
-      <created>1589692809537</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1589692809537</updated>
     </task>
     <task id="LOCAL-00077" summary="author name translatable">
       <created>1589692889813</created>
@@ -422,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589697605980</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Adding security xml file for controlling users access rights">
+      <created>1589698155954</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1589698155954</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,7 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding the more views to the model like the list view." />
     <MESSAGE value="Adding the action we made to the books menu so when we click we can see the model data." />
     <MESSAGE value="Adding publishers menu just like the books menu" />
     <MESSAGE value="Adding publishers menu action" />
@@ -462,6 +464,7 @@
     <MESSAGE value="Making this module shows on top of all apps with the sequence key in manifest." />
     <MESSAGE value="Changing the app name" />
     <MESSAGE value="Adding an icon to the app." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding an icon to the app." />
+    <MESSAGE value="Adding security xml file for controlling users access rights" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding security xml file for controlling users access rights" />
   </component>
 </project>
