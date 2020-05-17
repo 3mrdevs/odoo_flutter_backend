@@ -41,7 +41,7 @@ class Books (models.Model):
         ('waiting','Waiting approval'),
         ('reviewed','Reviewed'),
         ('published','Published'),
-    ],default='draft')
+    ],default='draft',readonly=True)
 
     # Adding a filed (column) for the publish date of the book which stores string containing a
     # date format.
