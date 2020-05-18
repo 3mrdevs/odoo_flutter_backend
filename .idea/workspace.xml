@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="daa798ca-1a2c-4581-9750-89e41c870b98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,13 +90,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589680561264</updated>
-    </task>
-    <task id="LOCAL-00135" summary="Naming the group managers.">
-      <created>1589698927890</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1589698927890</updated>
     </task>
     <task id="LOCAL-00136" summary="Adding the app category to the group.">
       <created>1589699000520</created>
@@ -435,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589711577057</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="Update readme with books route output">
+      <created>1589712285244</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1589712285244</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -443,14 +442,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding security access rights file to the manifest so Odoo can see it." />
     <MESSAGE value="Adding controllers to the python init file so Odoo can see it." />
     <MESSAGE value="Adding api to the python init file in the controller folder so Odoo can see it." />
     <MESSAGE value="Adding api controller." />
@@ -475,6 +475,7 @@
     <MESSAGE value="Add readme.md and screen-shot 1" />
     <MESSAGE value="Add more screen-shots" />
     <MESSAGE value="Update readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update readme" />
+    <MESSAGE value="Update readme with books route output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update readme with books route output" />
   </component>
 </project>

@@ -13,6 +13,7 @@
 This <a href="https://github.com/3mrdevs/odoo_flutter_backend">Odoo Flutter Backend</a> is a simple example of a book store back-end with <a href="https://www.odoo.com">Odoo</a> for a <a href="https://www.flutter.dev">flutter</a> app with an API controller.
 </p>
 
+# Step by step commits so you can get aboard easily
 
 <h2> Odoo Backend API </h2>
 
